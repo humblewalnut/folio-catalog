@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "note": "Partial official product-reference inbox. A lead does not certify card identities, checklist totals, artwork rights or all regional releases. Review before admitting new records.",
+  "sources": [
+    {
+      "language": "Japanese",
+      "source": "https://www.pokemon-card.com/products/",
+      "references": [
+        {
+          "url": "https://www.pokemon-card.com/products/index.html?productType=construction",
+          "title": "構築デッキ カード60枚入りで、すぐに遊べる。「早くバトルの体験がしたい！」キミにオススメ。"
+        },
+        {
+          "url": "https://www.pokemon-card.com/products/index.html?productType=expansion",
+          "title": "拡張パック 複数のカードがランダムに封入されている。「とりあえずカードを手に入れたい！」キミにオススメ。"
+        },
+        {
+          "url": "https://www.pokemon-card.com/products/index.html?productType=others",
+          "title": "その他の商品 カードが入っている。いろいろなタイプの商品。"
+        },
+        {
+          "url": "https://www.pokemon-card.com/products/index.html?productType=peripheral",
+          "title": "周辺グッズ より快適に遊べるためのグッズ。いろんなデザインがあって選ぶのが楽しい！"
+        }
+      ]
+    },
+    {
+      "language": "Simplified Chinese",
+      "source": "https://www.pokemon.cn/category/tcg/product",
+      "references": [
+        {
+          "url": "https://www.pokemon.cn/tcg/product/20012.html",
+          "title": "训练家与宝可梦的牵绊，尽现于此！ 宝可梦卡牌全新补充包商品“共逐荣光”及套装商品即将发售！ Product 2026-06-27"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/20466.html",
+          "title": "妙手点睛，绘梦成真！ 绘梦点睛伊布“们”的手办套装即将发售 Product 2026-07-27"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/20828.html",
+          "title": "决定你的卡组，冲击冠军之路！ 全新大师战略卡组构筑套装即将发售 Product 2026-06-29"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/20904.html",
+          "title": "琉光闪耀，一遇倾心！ 琉琪亚的闪耀专属礼盒即将发售！ Product 2026-07-17"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/21019.html",
+          "title": "以“R”为印，共逐荣光！ 火箭队的宏图专属礼盒即将发售！ Product 2026-06-29"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/21608.html",
+          "title": "日夜不息，庆典不止！ 更多“30周年庆典”主题商品即将发售 Product 2026-08-26"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/21750.html",
+          "title": "皮卡相伴，共庆30！ 30周年庆典 硬币套装即将发售 Product 2026-08-18"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/22430.html",
+          "title": "穿透画框，与你相遇！ 绘梦点睛 30周年皮卡丘手办套装即将发售 Product 2026-08-18"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/22630.html",
+          "title": "一起嗨皮起来吧！ 宝可梦卡牌全新嗨皮组合即将发售 Product 2026-06-29"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/22671.html",
+          "title": "人气双星，伴你而战！ 以莉莉艾及N为主题的对战套装礼盒即将发售！ Product 2026-06-29"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23048.html",
+          "title": "酸甜芬芳，探身觅宝！ Pokémon宝石包第六弹即将发售 Product 2026-07-17"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23056.html",
+          "title": "一路同行，此刻欢聚！ 30周年庆典 最初的伙伴特别插画闪卡套装 Vol.3即将发售 Product 2026-07-17"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23080.html",
+          "title": "伊布“们”的硬币展示框套装即将登场 Product 2026-07-18"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23095.html",
+          "title": "烈焰灼空，经典重燃！ “30周年庆典 典藏手办礼盒 喷火龙”即将发售 Product 2026-08-18"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23197.html",
+          "title": "明月映宝梦，所祈皆团圆！ 2026中秋礼盒即将发售 Product 2026-07-27"
+        },
+        {
+          "url": "https://www.pokemon.cn/tcg/product/23939.html",
+          "title": "一起嗨皮起来吧！ 宝可梦卡牌全新嗨皮组合即将发售 Product 2026-09-21"
+        }
+      ]
+    }
+  ]
+}

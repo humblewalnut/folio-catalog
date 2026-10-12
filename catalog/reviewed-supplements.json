@@ -1,0 +1,1078 @@
+{
+  "cards": [
+    {
+      "id": "folio-ja-CP6-011",
+      "name": "リザードン",
+      "setID": "tcgdex-ja-CP6",
+      "setName": "ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+      "number": "011",
+      "artist": "Mitsuhiro Arita",
+      "year": 2016,
+      "type": "Fire",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Holo",
+      "imageName": "folio-ja-CP6-011",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-S-P-208",
+      "name": "ピカチュウ",
+      "setID": "folio-ja-S-P",
+      "setName": "ソード＆シールド プロモカード",
+      "number": "208/S-P",
+      "artist": "YU NAGABA",
+      "year": 2021,
+      "type": "Lightning",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Holo",
+      "imageName": "folio-ja-S-P-208",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-BW7-076",
+      "name": "フウロ",
+      "setID": "folio-ja-BW7",
+      "setName": "プラズマゲイル",
+      "number": "076",
+      "artist": "Unknown",
+      "year": 2012,
+      "type": "Trainer",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Holo",
+      "imageName": "folio-ja-BW7-076",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-vending1-dex001",
+      "name": "フシギダネ",
+      "setID": "folio-ja-vending1",
+      "setName": "Vending Series 1 (Blue)",
+      "number": "No.001",
+      "artist": "Unknown",
+      "year": 1998,
+      "type": "Grass",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Normal",
+      "imageName": "folio-ja-vending1-dex001",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-vending3-dex069",
+      "name": "マダツボミ",
+      "setID": "folio-ja-vending3",
+      "setName": "Vending Series 3 (Green)",
+      "number": "No.069",
+      "artist": "Unknown",
+      "year": 1998,
+      "type": "Grass",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Normal",
+      "imageName": "folio-ja-vending3-dex069",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-vending3-dex097",
+      "name": "スリーパー",
+      "setID": "folio-ja-vending3",
+      "setName": "Vending Series 3 (Green)",
+      "number": "No.097",
+      "artist": "Unknown",
+      "year": 1998,
+      "type": "Psychic",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Normal",
+      "imageName": "folio-ja-vending3-dex097",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-ja-vending3-dex150",
+      "name": "ミュウツー",
+      "setID": "folio-ja-vending3",
+      "setName": "Vending Series 3 (Green)",
+      "number": "No.150",
+      "artist": "Unknown",
+      "year": 1998,
+      "type": "Psychic",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Japanese",
+      "finish": "Normal",
+      "imageName": "folio-ja-vending3-dex150",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-en-trick2024-037",
+      "name": "Mimikyu",
+      "setID": "folio-en-trick2024",
+      "setName": "Trick or Trade BOOster Bundle 2024",
+      "number": "037",
+      "artist": "Unknown",
+      "year": 2024,
+      "type": "Psychic",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "English",
+      "finish": "Holo",
+      "imageName": "folio-en-trick2024-037",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB2C-0115",
+      "name": "伊布",
+      "setID": "folio-zh-cn-CBB2C",
+      "setName": "宝石包 VOL.2",
+      "number": "01 15/15",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Colorless",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB2C-0115",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB2C-0715",
+      "name": "叶伊布",
+      "setID": "folio-zh-cn-CBB2C",
+      "setName": "宝石包 VOL.2",
+      "number": "07 15/15",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Grass",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB2C-0715",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB2C-0915",
+      "name": "仙子伊布",
+      "setID": "folio-zh-cn-CBB2C",
+      "setName": "宝石包 VOL.2",
+      "number": "09 15/15",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Psychic",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB2C-0915",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB2C-0615",
+      "name": "月亮伊布",
+      "setID": "folio-zh-cn-CBB2C",
+      "setName": "宝石包 VOL.2",
+      "number": "06 15/15",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Darkness",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB2C-0615",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB3C-0407",
+      "name": "卡拉卡拉",
+      "setID": "folio-zh-cn-CBB3C",
+      "setName": "宝石包 VOL.3",
+      "number": "04 07/07",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Fighting",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB3C-0407",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CBB3C-0307",
+      "name": "耿鬼",
+      "setID": "folio-zh-cn-CBB3C",
+      "setName": "宝石包 VOL.3",
+      "number": "03 07/07",
+      "artist": "Unknown",
+      "year": 2025,
+      "type": "Psychic",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CBB3C-0307",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-151C-173",
+      "name": "皮卡丘",
+      "setID": "folio-zh-cn-151C",
+      "setName": "收集啦151",
+      "number": "173",
+      "artist": "Oswaldo KATO",
+      "year": 2025,
+      "type": "Lightning",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-151C-173",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-151C-171",
+      "name": "皮卡丘",
+      "setID": "folio-zh-cn-151C",
+      "setName": "收集啦151",
+      "number": "171",
+      "artist": "Oswaldo KATO",
+      "year": 2025,
+      "type": "Lightning",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-151C-171",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-151C-170",
+      "name": "皮卡丘",
+      "setID": "folio-zh-cn-151C",
+      "setName": "收集啦151",
+      "number": "170",
+      "artist": "Oswaldo KATO",
+      "year": 2025,
+      "type": "Lightning",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-151C-170",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-151C-172",
+      "name": "皮卡丘",
+      "setID": "folio-zh-cn-151C",
+      "setName": "收集啦151",
+      "number": "172",
+      "artist": "Oswaldo KATO",
+      "year": 2025,
+      "type": "Lightning",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-151C-172",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    },
+    {
+      "id": "folio-zh-cn-CS4bC-146",
+      "name": "烈空坐V",
+      "setID": "folio-zh-cn-CS4bC",
+      "setName": "九彩汇聚 源",
+      "number": "146",
+      "artist": "Unknown",
+      "year": 2024,
+      "type": "Dragon",
+      "generation": "Unknown",
+      "color": "Unknown",
+      "rarity": "Unknown",
+      "language": "Simplified Chinese",
+      "finish": "Holo",
+      "imageName": "folio-zh-cn-CS4bC-146",
+      "isEReader": false,
+      "availableFinishes": [],
+      "catalogSource": "Folio reviewed supplement"
+    }
+  ],
+  "sets": [
+    {
+      "id": "folio-ja-S-P",
+      "name": "ソード＆シールド プロモカード",
+      "language": "Japanese",
+      "releaseDate": "",
+      "series": "Sword & Shield",
+      "total": 0
+    },
+    {
+      "id": "folio-ja-BW7",
+      "name": "プラズマゲイル",
+      "language": "Japanese",
+      "releaseDate": "2012-09-14",
+      "series": "Black & White",
+      "total": 80
+    },
+    {
+      "id": "folio-ja-vending1",
+      "name": "Vending Series 1 (Blue)",
+      "language": "Japanese",
+      "releaseDate": "1998-03-23",
+      "series": "Original series",
+      "total": 0
+    },
+    {
+      "id": "folio-ja-vending3",
+      "name": "Vending Series 3 (Green)",
+      "language": "Japanese",
+      "releaseDate": "1998-11-24",
+      "series": "Original series",
+      "total": 0
+    },
+    {
+      "id": "folio-en-trick2024",
+      "name": "Trick or Trade BOOster Bundle 2024",
+      "language": "English",
+      "releaseDate": "2024-08-30",
+      "series": "Scarlet & Violet",
+      "total": 30
+    },
+    {
+      "id": "folio-zh-cn-CBB2C",
+      "name": "宝石包 VOL.2",
+      "language": "Simplified Chinese",
+      "releaseDate": "2025-05-16",
+      "series": "Scarlet & Violet",
+      "total": 0
+    },
+    {
+      "id": "folio-zh-cn-CBB3C",
+      "name": "宝石包 VOL.3",
+      "language": "Simplified Chinese",
+      "releaseDate": "2025-09-26",
+      "series": "Scarlet & Violet",
+      "total": 0
+    },
+    {
+      "id": "folio-zh-cn-151C",
+      "name": "收集啦151",
+      "language": "Simplified Chinese",
+      "releaseDate": "2025-01-17",
+      "series": "Scarlet & Violet",
+      "total": 0
+    },
+    {
+      "id": "folio-zh-cn-CS4bC",
+      "name": "九彩汇聚 源",
+      "language": "Simplified Chinese",
+      "releaseDate": "2024-03-01",
+      "series": "Sword & Shield",
+      "total": 0
+    }
+  ],
+  "mappings": [
+    {
+      "sourceSet": "Base Set (Japanese)",
+      "sourceName": "Blastoise (JP)",
+      "sourceNumber": "009",
+      "cardID": "tcgdex-ja-PMCG1-032",
+      "language": "Japanese",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/PMCG1-032"
+      ]
+    },
+    {
+      "sourceSet": "Neo Genesis (Japanese)",
+      "sourceName": "Lugia (JP)",
+      "sourceNumber": "249",
+      "cardID": "tcgdex-ja-neo1-072",
+      "language": "Japanese",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/neo1-072"
+      ]
+    },
+    {
+      "sourceSet": "Split Earth",
+      "sourceName": "Kabutops (JP)",
+      "sourceNumber": "090/088",
+      "cardID": "tcgdex-ja-E4-090",
+      "language": "Japanese",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/E4-090"
+      ]
+    },
+    {
+      "sourceSet": "VSTAR Universe",
+      "sourceName": "Charizard VSTAR (JP)",
+      "sourceNumber": "212/172",
+      "cardID": "tcgdex-ja-S12a-212",
+      "language": "Japanese",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/S12a-212"
+      ]
+    },
+    {
+      "sourceSet": "20th Anniversary",
+      "sourceName": "Charizard (JP)",
+      "sourceNumber": "011/087",
+      "cardID": "folio-ja-CP6-011",
+      "language": "Japanese",
+      "evidence": [
+        "https://www.pokemon-card.com/card-search/details.php/card/32217"
+      ]
+    },
+    {
+      "sourceSet": "Sword & Shield Promos (JP)",
+      "sourceName": "Pikachu - 208/S-P (Yu Nagaba)",
+      "sourceNumber": "208/S-P",
+      "cardID": "folio-ja-S-P-208",
+      "language": "Japanese",
+      "evidence": [
+        "https://www.pokemon-card.com/card-search/details.php/card/39914"
+      ]
+    },
+    {
+      "sourceSet": "Plasma Gale",
+      "sourceName": "Skyla (JP)",
+      "sourceNumber": "076/070",
+      "cardID": "folio-ja-BW7-076",
+      "language": "Japanese",
+      "evidence": [
+        "https://hakuu.client.jp/dragon-scales-/BW-plasma-gale/BW7-maisuu.pdf",
+        "https://tcgkakaku.e-starbox.com/pc/card?no=076%2F070%2FBW7%2FB"
+      ]
+    },
+    {
+      "sourceSet": "Vending Series 1 (Blue)",
+      "sourceName": "Bulbasaur (JP)",
+      "sourceNumber": "001",
+      "cardID": "folio-ja-vending1-dex001",
+      "language": "Japanese",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ]
+    },
+    {
+      "sourceSet": "Vending Series 3 (Green)",
+      "sourceName": "Bellsprout (JP)",
+      "sourceNumber": "069",
+      "cardID": "folio-ja-vending3-dex069",
+      "language": "Japanese",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ]
+    },
+    {
+      "sourceSet": "Vending Series 3 (Green)",
+      "sourceName": "Hypno (JP)",
+      "sourceNumber": "097",
+      "cardID": "folio-ja-vending3-dex097",
+      "language": "Japanese",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ]
+    },
+    {
+      "sourceSet": "Vending Series 3 (Green)",
+      "sourceName": "Mewtwo (JP)",
+      "sourceNumber": "150",
+      "cardID": "folio-ja-vending3-dex150",
+      "language": "Japanese",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ]
+    },
+    {
+      "sourceSet": "Trick or Trade BOOster Bundle 2024",
+      "sourceName": "Mimikyu (Cosmos Holo)",
+      "sourceNumber": "037/091",
+      "cardID": "folio-en-trick2024-037",
+      "language": "English",
+      "evidence": [
+        "https://www.pokellector.com/Trick-or-Trade-2024-Collection/",
+        "https://www.pokecardex.com/en/carte/23339"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack 2",
+      "sourceName": "Eevee",
+      "sourceNumber": "0115/15",
+      "cardID": "folio-zh-cn-CBB2C-0115",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack 2",
+      "sourceName": "Leafeon",
+      "sourceNumber": "0715/15",
+      "cardID": "folio-zh-cn-CBB2C-0715",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack 2",
+      "sourceName": "Sylveon",
+      "sourceNumber": "0915/15",
+      "cardID": "folio-zh-cn-CBB2C-0915",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack 2",
+      "sourceName": "Umbreon (CN)",
+      "sourceNumber": "0615/15",
+      "cardID": "folio-zh-cn-CBB2C-0615",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack Vol. 3",
+      "sourceName": "Cubone (Full Art)",
+      "sourceNumber": "0407/07",
+      "cardID": "folio-zh-cn-CBB3C-0407",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/category/tcg/product/p/3",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb3c"
+      ]
+    },
+    {
+      "sourceSet": "Gem Pack Vol. 3",
+      "sourceName": "Gengar (Full Art)",
+      "sourceNumber": "0307/07",
+      "cardID": "folio-zh-cn-CBB3C-0307",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/category/tcg/product/p/3",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb3c"
+      ]
+    },
+    {
+      "sourceSet": "Collect 151 Gathering",
+      "sourceName": "Pikachu",
+      "sourceNumber": "173/151",
+      "cardID": "folio-zh-cn-151C-173",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ]
+    },
+    {
+      "sourceSet": "Collect 151 Hope",
+      "sourceName": "Pikachu",
+      "sourceNumber": "171/151",
+      "cardID": "folio-zh-cn-151C-171",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ]
+    },
+    {
+      "sourceSet": "Collect 151 Journey",
+      "sourceName": "Pikachu",
+      "sourceNumber": "170/151",
+      "cardID": "folio-zh-cn-151C-170",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ]
+    },
+    {
+      "sourceSet": "Collect 151 Surprise",
+      "sourceName": "Pikachu",
+      "sourceNumber": "172/151",
+      "cardID": "folio-zh-cn-151C-172",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ]
+    },
+    {
+      "sourceSet": "Nine Colours Gathering (Origin)",
+      "sourceName": "Rayquaza V",
+      "sourceNumber": "146/132",
+      "cardID": "folio-zh-cn-CS4bC-146",
+      "language": "Simplified Chinese",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15955.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cs4bc"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "cardID": "tcgdex-ja-PMCG1-032",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/PMCG1-032"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "tcgdex-ja-neo1-072",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/neo1-072"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "tcgdex-ja-E4-090",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/E4-090"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "tcgdex-ja-S12a-212",
+      "evidence": [
+        "https://api.tcgdex.net/v2/ja/cards/S12a-212"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-CP6-011",
+      "evidence": [
+        "https://www.pokemon-card.com/card-search/details.php/card/32217"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-S-P-208",
+      "evidence": [
+        "https://www.pokemon-card.com/card-search/details.php/card/39914"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-BW7-076",
+      "evidence": [
+        "https://hakuu.client.jp/dragon-scales-/BW-plasma-gale/BW7-maisuu.pdf",
+        "https://tcgkakaku.e-starbox.com/pc/card?no=076%2F070%2FBW7%2FB"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-vending1-dex001",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-vending3-dex069",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-vending3-dex097",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-ja-vending3-dex150",
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-en-trick2024-037",
+      "evidence": [
+        "https://www.pokellector.com/Trick-or-Trade-2024-Collection/",
+        "https://www.pokecardex.com/en/carte/23339"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0115",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0715",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0915",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0615",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB3C-0407",
+      "evidence": [
+        "https://www.pokemon.cn/category/tcg/product/p/3",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb3c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CBB3C-0307",
+      "evidence": [
+        "https://www.pokemon.cn/category/tcg/product/p/3",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb3c"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-151C-173",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-151C-171",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-151C-170",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-151C-172",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "cardID": "folio-zh-cn-CS4bC-146",
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15955.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cs4bc"
+      ],
+      "variantsVerified": false,
+      "reviewedAt": "2026-10-12"
+    }
+  ],
+  "expectations": [
+    {
+      "set": {
+        "id": "folio-ja-S-P",
+        "name": "ソード＆シールド プロモカード",
+        "language": "Japanese",
+        "releaseDate": "",
+        "series": "Sword & Shield",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon-card.com/card-search/details.php/card/39914"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-ja-BW7",
+        "name": "プラズマゲイル",
+        "language": "Japanese",
+        "releaseDate": "2012-09-14",
+        "series": "Black & White",
+        "total": 80
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://hakuu.client.jp/dragon-scales-/BW-plasma-gale/BW7-maisuu.pdf",
+        "https://tcgkakaku.e-starbox.com/pc/card?no=076%2F070%2FBW7%2FB"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-ja-vending1",
+        "name": "Vending Series 1 (Blue)",
+        "language": "Japanese",
+        "releaseDate": "1998-03-23",
+        "series": "Original series",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-ja-vending3",
+        "name": "Vending Series 3 (Green)",
+        "language": "Japanese",
+        "releaseDate": "1998-11-24",
+        "series": "Original series",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vending_Series_%28TCG%29",
+        "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-en-trick2024",
+        "name": "Trick or Trade BOOster Bundle 2024",
+        "language": "English",
+        "releaseDate": "2024-08-30",
+        "series": "Scarlet & Violet",
+        "total": 30
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokellector.com/Trick-or-Trade-2024-Collection/",
+        "https://www.pokecardex.com/en/carte/23339"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-CBB2C",
+        "name": "宝石包 VOL.2",
+        "language": "Simplified Chinese",
+        "releaseDate": "2025-05-16",
+        "series": "Scarlet & Violet",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15518.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb2c"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-CBB3C",
+        "name": "宝石包 VOL.3",
+        "language": "Simplified Chinese",
+        "releaseDate": "2025-09-26",
+        "series": "Scarlet & Violet",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/category/tcg/product/p/3",
+        "https://pokemonlore.com/chinese-tcg-cards/cbb3c"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-151C",
+        "name": "收集啦151",
+        "language": "Simplified Chinese",
+        "releaseDate": "2025-01-17",
+        "series": "Scarlet & Violet",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15486.html",
+        "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%28Collection_151_173%29"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-CS4bC",
+        "name": "九彩汇聚 源",
+        "language": "Simplified Chinese",
+        "releaseDate": "2024-03-01",
+        "series": "Sword & Shield",
+        "total": 0
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15955.html",
+        "https://pokemonlore.com/chinese-tcg-cards/cs4bc"
+      ],
+      "note": "Known release; partial reviewed supplement. Full checklist, artwork and finish audit pending."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-CBB1C",
+        "name": "宝石包 VOL.1",
+        "series": "Regional release",
+        "releaseDate": "2025-01-17",
+        "total": 0,
+        "language": "Simplified Chinese"
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15585.html"
+      ],
+      "note": "Known release missing from the admitted catalog. Checklist denominator unverified."
+    },
+    {
+      "set": {
+        "id": "folio-zh-cn-CS4aC",
+        "name": "九彩汇聚 朋",
+        "series": "Regional release",
+        "releaseDate": "2024-03-01",
+        "total": 0,
+        "language": "Simplified Chinese"
+      },
+      "expectedDesigns": null,
+      "expectedNumbers": null,
+      "evidence": [
+        "https://www.pokemon.cn/tcg/product/15955.html"
+      ],
+      "note": "Known release missing from the admitted catalog. Checklist denominator unverified."
+    }
+  ],
+  "artworkPolicy": "No new artwork is copied from reference sites. Only approved TCGdex URLs or user-owned photos are rendered. Evidence URLs verify metadata; they are not artwork licenses."
+}

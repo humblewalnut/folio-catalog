@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "total": 165,
+    "releaseDate": "2002/09/15"
+  },
+  {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "total": 237,
+    "releaseDate": "2021/08/27"
+  },
+  {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "total": 284,
+    "releaseDate": "2021/11/12"
+  },
+  {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "total": 70,
+    "releaseDate": "2023/01/20"
+  },
+  {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "total": 207,
+    "releaseDate": "2023/09/22"
+  }
+]

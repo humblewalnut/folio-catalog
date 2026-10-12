@@ -1,0 +1,52 @@
+name: Catalog refresh and audit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 10 * * 1'
+  pull_request:
+    paths: ['catalog/**', 'scripts/*catalog*.py', 'inputs/*.json', '.github/workflows/catalog.yml']
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: catalog-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate submitted snapshot and supplements
+        run: python3 scripts/publish-catalog.py --validate-only
+      - name: Refresh public data and official product reference inbox
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 scripts/refresh-catalog.py
+          python3 scripts/watch-catalog-sources.py
+          python3 scripts/publish-catalog.py --check-images --image-limit 256
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: catalog-audit
+          path: |
+            catalog/coverage-audit.json
+            catalog/artwork-health.json
+            catalog/source-watch.json
+      - name: Propose reviewed data update
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git status --porcelain
+          if git diff --quiet -- catalog/manifest.json catalog/source-watch.json inputs; then exit 0; fi
+          git config user.name 'Folio catalog maintenance'
+          git config user.email 'catalog@users.noreply.github.com'
+          branch="catalog/update-${GITHUB_RUN_ID}"
+          git checkout -b "$branch"
+          git add catalog inputs
+          git commit -m 'Refresh catalog snapshot and coverage audit'
+          git push origin "$branch"
+          cat > /tmp/catalog-pr.md <<'BODY'
+          Refreshes the TCGdex snapshot and official product reference inbox. Coverage, numbering and duplicate checks passed. Artwork HTTP failures are recorded in the workflow artifact; supplied URLs do not establish visual identity or usage rights. Review new regional records and reference leads before merging. The published manifest updates installed Folio clients independently of an app release; stable printed identities cannot be removed or reassigned.
+          BODY
+          gh pr create --base main --head "$branch" --title 'Review catalog data update' --body-file /tmp/catalog-pr.md

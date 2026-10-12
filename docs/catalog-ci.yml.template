@@ -16,8 +16,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Preserve base release for identity comparison
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git fetch origin "$BASE_SHA" --depth=1
+          git show "$BASE_SHA:catalog/manifest.json" > /tmp/base-manifest.json
+          payload=$(python3 -c 'import json; print(json.load(open("/tmp/base-manifest.json"))["payloadURL"].split("/")[-1])')
+          git show "$BASE_SHA:catalog/releases/$payload" > /tmp/base-release.json
       - name: Validate submitted snapshot and supplements
-        run: python3 scripts/publish-catalog.py --validate-only
+        run: |
+          if test -f /tmp/base-release.json; then
+            python3 scripts/publish-catalog.py --validate-only --previous-release /tmp/base-release.json
+          else
+            python3 scripts/publish-catalog.py --validate-only
+          fi
       - name: Refresh public data and official product reference inbox
         if: github.event_name != 'pull_request'
         run: |
@@ -49,4 +63,7 @@ jobs:
           cat > /tmp/catalog-pr.md <<'BODY'
           Refreshes the TCGdex snapshot and official product reference inbox. Coverage, numbering and duplicate checks passed. Artwork HTTP failures are recorded in the workflow artifact; supplied URLs do not establish visual identity or usage rights. Review new regional records and reference leads before merging. The published manifest updates installed Folio clients independently of an app release; stable printed identities cannot be removed or reassigned.
           BODY
-          gh pr create --base main --head "$branch" --title 'Review catalog data update' --body-file /tmp/catalog-pr.md
+          if ! gh pr create --base main --head "$branch" --title 'Review catalog data update' --body-file /tmp/catalog-pr.md; then
+            echo "::notice::Review branch published; repository policy limits automatic PR creation."
+            echo "Review update: https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}" >> "$GITHUB_STEP_SUMMARY"
+          fi

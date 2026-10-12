@@ -68,18 +68,23 @@ def imagecheck(release,limit):
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(check,urls))
     return dict(checkedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),checked=len(results),failures=[r for r in results if not r['available']],note='HTTP availability check, not visual printing verification or artwork permission.')
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--check-images',action='store_true');p.add_argument('--image-limit',type=int,default=128);p.add_argument('--validate-only',action='store_true');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--check-images',action='store_true');p.add_argument('--image-limit',type=int,default=128);p.add_argument('--validate-only',action='store_true');p.add_argument('--previous-release',type=Path);args=p.parse_args()
     release=merge()
     identity=hashlib.sha256(encode({k:v for k,v in release.items() if k not in ['revision','publishedAt']})).hexdigest()
     revision='v1-'+identity[:16]
     current=read(CAT/'manifest.json') if (CAT/'manifest.json').exists() else None
     if current and current['revision']==revision:
-        release=read(CAT/'releases'/Path(current['payloadURL']).name)
+        stored=CAT/'releases'/Path(current['payloadURL']).name
+        raw=stored.read_bytes()
+        if len(raw)!=current['byteCount'] or hashlib.sha256(raw).hexdigest()!=current['sha256']:raise ValueError('Published payload integrity mismatch')
+        saved=read(stored)
+        if encode({k:v for k,v in saved.items() if k not in ['revision','publishedAt']}) != encode({k:v for k,v in release.items() if k not in ['revision','publishedAt']}):raise ValueError('Published payload disagrees with reviewed inputs')
+        release=saved
     else:release.update(revision=revision,publishedAt=datetime.datetime.now(datetime.timezone.utc).isoformat())
     report=audit(release)
-    previous=(CAT/'manifest.json').exists()
+    previous=args.previous_release or (CAT/'releases'/Path(current['payloadURL']).name if current else None)
     if previous:
-        old=read(CAT/'releases'/Path(read(CAT/'manifest.json')['payloadURL']).name)
+        old=read(previous)
         oldid={c['id']:c for c in old['cards']};newid={c['id']:c for c in release['cards']}
         for cid,c in oldid.items():
             if cid not in newid or any(c[k]!=newid[cid][k] for k in ['setID','number','language']):raise ValueError('Printing identity removed or changed: '+cid)

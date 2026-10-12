@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '17 10 * * 1'
   pull_request:
-    paths: ['catalog/**', 'scripts/*catalog*.py', 'inputs/*.json', '.github/workflows/catalog.yml']
+    paths: ['catalog/**', 'scripts/*catalog*.py', 'scripts/artwork_policy.py', 'inputs/*.json', '.github/workflows/catalog.yml']
 permissions:
   contents: write
   pull-requests: write
@@ -49,6 +49,7 @@ jobs:
             catalog/manifest.json
             catalog/releases/
             catalog/reviewed-supplements.json
+            catalog/reviewed-artwork.json
             inputs/*.json
       - name: Propose reviewed data update
         if: github.event_name != 'pull_request'

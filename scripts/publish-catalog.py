@@ -4,6 +4,7 @@ No collection exports, ownership, prices or private photos are inputs.
 """
 import argparse, collections, datetime, hashlib, json, re, subprocess, concurrent.futures
 from pathlib import Path
+from artwork_policy import allowed_artwork, apply_artwork
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT/'inputs' if (ROOT/'inputs').is_dir() else ROOT/'iOS/Folio/DemoCatalog'
 CAT=ROOT/'catalog'
@@ -24,13 +25,14 @@ def merge():
         if c['id'] in known: raise ValueError('Supplement ID collides with base catalog: '+c['id'])
         cards.append(c);known.add(c['id'])
     sets+=sup['sets']
+    if (CAT/'reviewed-artwork.json').exists(): apply_artwork(cards, read(CAT/'reviewed-artwork.json'))
     unique(cards,lambda c:c['id'],'card ID');unique(sets,lambda s:s['id'],'set ID')
     unique(sup['mappings'],mappingkey,'mapping');unique(sup['reviews'],lambda r:r['cardID'],'review')
     byset={s['id']:s for s in sets};byid={c['id']:c for c in cards}
     for c in cards:
         if c['language'] not in LANGS or c['id'].startswith('personal-') or c['setID'] not in byset or byset[c['setID']].get('language','English') != c['language']:raise ValueError('Invalid regional identity: '+c['id'])
         url=c.get('imageURL')
-        if url and not re.fullmatch(r'https://assets\.tcgdex\.net/(?:en|ja|zh-cn)/[^?#]+/high\.jpg',url):raise ValueError('Unapproved artwork URL')
+        if url and not allowed_artwork(url,c['language']):raise ValueError('Unapproved artwork URL: '+c['id'])
     for m in sup['mappings']:
         if m['cardID'] not in byid or byid[m['cardID']]['language']!=m['language'] or not m['evidence']:raise ValueError('Unverified mapping')
     for r in sup['reviews']:
@@ -56,11 +58,11 @@ def audit(release):
         e=expected.get(s['id'],{})
         rows.append(dict(setID=s['id'],name=s['name'],language=s.get('language','English'),providerExpectedDesigns=s['total'] or None,reviewedExpectedDesigns=e.get('expectedDesigns'),records=len(cs),reviewedIdentities=sum(c['id'] in reviews for c in cs),artworkAvailable=sum(bool(c.get('imageURL')) or (DEST/(c['imageName']+'.jpg')).exists() or c['imageName'] in bundled for c in cs),variantsVerified=sum(c['id'] in variants for c in cs),importMappings=sum(mappings[c['id']] for c in cs),missingReviewedNumbers=[n for n in e.get('expectedNumbers') or [] if n not in numbers],missingProviderNumericNumbers=inferred,duplicateNumbers=[n for n,count in counts.items() if count>1],note=e.get('note','Provider denominator only; independent checklist, identity and finish audit pending.')))
     totals={lang:dict(records=sum(r['records'] for r in rows if r['language']==lang),sets=sum(r['language']==lang for r in rows),artworkAvailable=sum(r['artworkAvailable'] for r in rows if r['language']==lang),reviewedIdentities=sum(r['reviewedIdentities'] for r in rows if r['language']==lang)) for lang in sorted(LANGS)}
-    return dict(schemaVersion=1,revision=release['revision'],scope='Physical English, Japanese and Simplified Chinese. Records are designs; finish variants counted separately. Known-release registry remains partial.',totals=totals,sets=rows)
+    return dict(schemaVersion=1,revision=release['revision'],scope='Physical English, Japanese and Simplified Chinese. Records are catalog printings; some Chinese checklists include separately numbered finishes. Artwork, variants and worldwide checklist coverage remain incomplete.',totals=totals,sets=rows)
 def imagecheck(release,limit):
     urls=sorted({c['imageURL'] for c in release['cards'] if c.get('imageURL')})
     # Scheduled checks rotate deterministically; explicit --image-limit 0 checks every URL.
-    if limit:
+    if limit and urls:
         offset=(datetime.date.today().toordinal()*limit)%len(urls);urls=(urls[offset:]+urls[:offset])[:limit]
     def check(u):
         p=subprocess.run(['curl','-s','-o','/dev/null','-w','%{http_code}','-I','--max-time','15',u],capture_output=True,text=True)
@@ -98,7 +100,9 @@ def main():
     (CAT/'manifest.json').write_bytes(encode(manifest));(CAT/'coverage-audit.json').write_bytes(encode(report))
     # The app joins this small metadata envelope to existing bundled provider snapshots.
     supplement=read(CAT/'reviewed-supplements.json')
-    bundled=dict(release,cards=supplement['cards'],sets=supplement['sets']);(DEST/'catalog-release.json').write_bytes(encode(bundled))
+    patch_ids={p['cardID'] for p in read(CAT/'reviewed-artwork.json').get('records',[])} if (CAT/'reviewed-artwork.json').exists() else set()
+    supplement_ids={c['id'] for c in supplement['cards']}
+    bundled=dict(release,cards=[c for c in release['cards'] if c['id'] in supplement_ids or c['id'] in patch_ids],sets=supplement['sets']);(DEST/'catalog-release.json').write_bytes(encode(bundled))
     if args.check_images:(CAT/'artwork-health.json').write_bytes(encode(imagecheck(release,args.image_limit)))
     print(json.dumps({'revision':revision,'cards':len(release['cards']),'sets':len(release['sets']),'bytes':len(data),'coverage':report['totals']},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

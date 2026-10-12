@@ -1,32 +1,46 @@
 {
   "schemaVersion": 1,
-  "note": "Partial official product-reference inbox. A lead does not certify card identities, checklist totals, artwork rights or all regional releases. Review before admitting new records.",
+  "checkedAt": "2026-10-12T13:53:33.512961+00:00",
+  "note": "Partial official product-reference inbox. A lead does not certify identities, checklists, artwork rights or all regional releases. Review before admission.",
   "sources": [
     {
       "language": "Japanese",
-      "source": "https://www.pokemon-card.com/products/",
+      "source": "https://www.pokemon-card.com/products/topList.php",
+      "status": "available",
+      "lastVerifiedAt": "2026-10-12T13:53:33.512961+00:00",
       "references": [
         {
-          "url": "https://www.pokemon-card.com/products/index.html?productType=construction",
-          "title": "構築デッキ カード60枚入りで、すぐに遊べる。「早くバトルの体験がしたい！」キミにオススメ。"
+          "url": "https://www.30th.pokemon-card.com/product/m6a",
+          "title": "拡張パック「30th CELEBRATION」",
+          "releaseDate": "2026年 9月16日（水）"
         },
         {
-          "url": "https://www.pokemon-card.com/products/index.html?productType=expansion",
-          "title": "拡張パック 複数のカードがランダムに封入されている。「とりあえずカードを手に入れたい！」キミにオススメ。"
+          "url": "https://www.pokemon-card.com/ex/m6/",
+          "title": "拡張パック「ストームエメラルダ」",
+          "releaseDate": "2026年 7月31日（金）"
         },
         {
-          "url": "https://www.pokemon-card.com/products/index.html?productType=others",
-          "title": "その他の商品 カードが入っている。いろいろなタイプの商品。"
+          "url": "https://www.pokemon-card.com/ex/me/#mee",
+          "title": "スターターセットex イーブイex",
+          "releaseDate": "2026年 7月31日（金）"
         },
         {
-          "url": "https://www.pokemon-card.com/products/index.html?productType=peripheral",
-          "title": "周辺グッズ より快適に遊べるためのグッズ。いろんなデザインがあって選ぶのが楽しい！"
+          "url": "https://www.pokemon-card.com/ex/me/#mem",
+          "title": "スターターセットex ニャオハ＆マスカーニャex",
+          "releaseDate": "2026年 7月31日（金）"
+        },
+        {
+          "url": "https://www.pokemon-card.com/ex/me/#mez",
+          "title": "スターターセットex ゾロア＆ゾロアークex",
+          "releaseDate": "2026年 7月31日（金）"
         }
       ]
     },
     {
       "language": "Simplified Chinese",
       "source": "https://www.pokemon.cn/category/tcg/product",
+      "status": "available",
+      "lastVerifiedAt": "2026-10-12T13:53:33.512961+00:00",
       "references": [
         {
           "url": "https://www.pokemon.cn/tcg/product/20012.html",

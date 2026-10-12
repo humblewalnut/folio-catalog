@@ -28,3 +28,7 @@ Japanese metadata is correlated from the MIT-licensed type-null source using off
 **Build 25 or later** supports these additional English artwork URLs. Older builds keep their existing catalog if their validator rejects the host. The app merges artwork patches into the bundled catalog without duplicating records. Compatible future metadata releases can update independently of app releases.
 
 Coverage remains incomplete, especially Japanese artwork, historical mainland Chinese products, shared-number variants and exact finishes. The complete master, source inventory and unresolved candidates stay private. Public additions contain only approved identifying facts and evidence. No new catalog API account or subscription is required.
+
+## Japanese artwork reference update — 12 October 2026
+
+Release `v1-a273cbd8abd9741e` preserves all 44,335 records, 568 admitted products and 23 importer mappings. It adds 910 identity-bound Japanese TCGdex image references, for 4,937 Japanese records with supplied artwork. Names and collector numbers were inspected; finish and edition remain unverified. This is an image-reference update, not worldwide coverage completion. No image bytes, private research, local archive paths or noncommercial source assets are published.

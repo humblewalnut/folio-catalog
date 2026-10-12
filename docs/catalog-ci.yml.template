@@ -36,7 +36,7 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           python3 scripts/refresh-catalog.py
-          python3 scripts/watch-catalog-sources.py
+          python3 scripts/watch-catalog-sources.py || echo "::warning::Official reference checks unavailable; inspect the retained source report."
           python3 scripts/publish-catalog.py --check-images --image-limit 256
       - uses: actions/upload-artifact@v4
         if: github.event_name != 'pull_request'
@@ -46,6 +46,10 @@ jobs:
             catalog/coverage-audit.json
             catalog/artwork-health.json
             catalog/source-watch.json
+            catalog/manifest.json
+            catalog/releases/
+            catalog/reviewed-supplements.json
+            inputs/*.json
       - name: Propose reviewed data update
         if: github.event_name != 'pull_request'
         env:
@@ -59,7 +63,11 @@ jobs:
           git checkout -b "$branch"
           git add catalog inputs
           git commit -m 'Refresh catalog snapshot and coverage audit'
-          git push origin "$branch"
+          if ! git push origin "$branch"; then
+            echo "::warning::GitHub could not publish the review branch. The complete proposed snapshot is in the catalog-audit artifact."
+            echo "Branch publication failed; review the catalog-audit artifact before applying any update." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           cat > /tmp/catalog-pr.md <<'BODY'
           Refreshes the TCGdex snapshot and official product reference inbox. Coverage, numbering and duplicate checks passed. Artwork HTTP failures are recorded in the workflow artifact; supplied URLs do not establish visual identity or usage rights. Review new regional records and reference leads before merging. The published manifest updates installed Folio clients independently of an app release; stable printed identities cannot be removed or reassigned.
           BODY

@@ -12,6 +12,6 @@ TCGdex is the community foundation; reviewed Folio supplements and exact importe
 
 ## Maintenance
 
-Run `python3 scripts/refresh-catalog.py`, `python3 scripts/watch-catalog-sources.py`, then `python3 scripts/publish-catalog.py --check-images`. Weekly GitHub Actions proposes changes as a PR; it never silently merges a regional identity. Keep reviewed supplements in version control with evidence. Do not reassign IDs or remove printings in a release.
+Run `python3 scripts/refresh-catalog.py`, `python3 scripts/watch-catalog-sources.py`, then `python3 scripts/publish-catalog.py --check-images`. Weekly GitHub Actions publishes a review branch and a complete audit artifact, and attempts to open a PR. If repository policy blocks automatic PR creation, use the published compare link to open it manually. Publication failures retain the full proposed snapshot in the artifact; unavailable source checks are reported and prior reference leads are preserved. It never silently merges a regional identity. Keep reviewed supplements in version control with evidence. Do not reassign IDs or remove printings in a release.
 
 TCGdex metadata is MIT licensed (see `inputs/TCGDEX-LICENSE.txt`). Card artwork and Pokémon trademarks belong to their respective rights holders. Source references are for identity review and do not grant artwork rights. New reference-site artwork is not copied into this repository. See input attribution for the legacy demo metadata.

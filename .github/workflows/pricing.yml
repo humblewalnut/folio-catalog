@@ -23,7 +23,7 @@ jobs:
           node-version: '24'
       - name: Test outage handling, printing matches and source dates
         run: |
-          node --test backend/market-feed.test.mjs
+          node --test backend/market*.test.mjs
           python3 -m unittest discover -s scripts -p 'test_archive_cardmarket.py' -v
           node --input-type=module -e 'import fs from "node:fs"; import {reviewedMappings} from "./backend/marketplaces.mjs"; reviewedMappings(JSON.parse(fs.readFileSync("backend/marketplace-mappings.json")));'
       - name: Download official bulk guide and refresh reviewed references

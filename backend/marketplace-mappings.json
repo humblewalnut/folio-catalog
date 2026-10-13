@@ -20,6 +20,150 @@
   },
   {
     "identity": {
+      "cardID": "ecard1-148",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 88389,
+    "cardmarketID": 275023,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard1-148",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.144876+00:00",
+    "cardName": "Professor Elm's Training Method",
+    "setName": "Expedition Base Set",
+    "number": "148",
+    "sourceSetID": "ecard1"
+  },
+  {
+    "identity": {
+      "cardID": "ecard1-148",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 88389,
+    "cardmarketID": 275023,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard1-148",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.145147+00:00",
+    "cardName": "Professor Elm's Training Method",
+    "setName": "Expedition Base Set",
+    "number": "148",
+    "sourceSetID": "ecard1"
+  },
+  {
+    "identity": {
+      "cardID": "ecard1-77",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 85475,
+    "cardmarketID": 274952,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard1-77",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.145641+00:00",
+    "cardName": "Flaaffy",
+    "setName": "Expedition Base Set",
+    "number": "77",
+    "sourceSetID": "ecard1"
+  },
+  {
+    "identity": {
+      "cardID": "ecard1-77",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 85475,
+    "cardmarketID": 274952,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard1-77",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.145700+00:00",
+    "cardName": "Flaaffy",
+    "setName": "Expedition Base Set",
+    "number": "77",
+    "sourceSetID": "ecard1"
+  },
+  {
+    "identity": {
       "cardID": "swsh7-215",
       "language": "English",
       "finish": "Holo"
@@ -39,25 +183,6 @@
   },
   {
     "identity": {
-      "cardID": "tcgdex-en-sv03.5-199",
-      "language": "English",
-      "finish": "Holo"
-    },
-    "variantID": "jr7oetx1mqug9",
-    "tcgplayerID": 517045,
-    "cardmarketID": 733794,
-    "tcgPrinting": "holofoil",
-    "reviewedAt": "2026-10-13T00:00:00Z",
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-199",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "cardName": "Charizard ex",
-    "setName": "151",
-    "number": "199"
-  },
-  {
-    "identity": {
       "cardID": "tcgdex-en-2023sv-6",
       "language": "English",
       "finish": "Holo"
@@ -65,15 +190,618 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 516517,
     "cardmarketID": 725423,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/2023sv-6",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.529764+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.146102+00:00",
     "cardName": "Pikachu",
     "setName": "McDonald's Collection 2023",
-    "number": "6"
+    "number": "6",
+    "sourceSetID": "2023sv"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base1-24",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "3a83wf50tz7q114spsx7dw6v5",
+    "tcgplayerID": 42365,
+    "cardmarketID": 273719,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base1-24",
+    "expectedSubtype": "unlimited",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.146494+00:00",
+    "cardName": "Charmeleon",
+    "setName": "Base Set",
+    "number": "24",
+    "sourceSetID": "base1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base1-63",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "3a83wf50tz7q114spsx7dw6v5",
+    "tcgplayerID": 42408,
+    "cardmarketID": 273758,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base1-63",
+    "expectedSubtype": "unlimited",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.146912+00:00",
+    "cardName": "Squirtle",
+    "setName": "Base Set",
+    "number": "63",
+    "sourceSetID": "base1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base2-50",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 45153,
+    "cardmarketID": 273847,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base2-50",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147144+00:00",
+    "cardName": "Cubone",
+    "setName": "Jungle",
+    "number": "50",
+    "sourceSetID": "base2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base2-50",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 45153,
+    "cardmarketID": 273847,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base2-50",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147110+00:00",
+    "cardName": "Cubone",
+    "setName": "Jungle",
+    "number": "50",
+    "sourceSetID": "base2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base3-50",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 44452,
+    "cardmarketID": 273911,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base3-50",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147376+00:00",
+    "cardName": "Kabuto",
+    "setName": "Fossil",
+    "number": "50",
+    "sourceSetID": "base3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base3-50",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 44452,
+    "cardmarketID": 273911,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base3-50",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147341+00:00",
+    "cardName": "Kabuto",
+    "setName": "Fossil",
+    "number": "50",
+    "sourceSetID": "base3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base3-53",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "riiya83ugrmyblv79w0lex10n7b7wxt9v",
+    "tcgplayerID": 44455,
+    "cardmarketID": 273914,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base3-53",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "4liram37qwxxpcj21gcs9m",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "riiya83ugrmyblv79w0lex10n7b7wxt9v",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147763+00:00",
+    "cardName": "Psyduck",
+    "setName": "Fossil",
+    "number": "53",
+    "sourceSetID": "base3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base3-53",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "4liram37qwxxpcj21gcs9m",
+    "tcgplayerID": 44455,
+    "cardmarketID": 273914,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base3-53",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "4liram37qwxxpcj21gcs9m",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "riiya83ugrmyblv79w0lex10n7b7wxt9v",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147730+00:00",
+    "cardName": "Psyduck",
+    "setName": "Fossil",
+    "number": "53",
+    "sourceSetID": "base3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-29",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 84655,
+    "cardmarketID": 274065,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-29",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147981+00:00",
+    "cardName": "Dark Slowbro",
+    "setName": "Team Rocket",
+    "number": "29",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-29",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 84655,
+    "cardmarketID": 274065,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-29",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.147949+00:00",
+    "cardName": "Dark Slowbro",
+    "setName": "Team Rocket",
+    "number": "29",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-40",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 84621,
+    "cardmarketID": 274093,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-40",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148203+00:00",
+    "cardName": "Dark Machoke",
+    "setName": "Team Rocket",
+    "number": "40",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-40",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 84621,
+    "cardmarketID": 274093,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-40",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148170+00:00",
+    "cardName": "Dark Machoke",
+    "setName": "Team Rocket",
+    "number": "40",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-67",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 89322,
+    "cardmarketID": 274120,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-67",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148421+00:00",
+    "cardName": "Slowpoke",
+    "setName": "Team Rocket",
+    "number": "67",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-67",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 89322,
+    "cardmarketID": 274120,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-67",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148388+00:00",
+    "cardName": "Slowpoke",
+    "setName": "Team Rocket",
+    "number": "67",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-78",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 85841,
+    "cardmarketID": 274131,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-78",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148635+00:00",
+    "cardName": "Goop Gas Attack",
+    "setName": "Team Rocket",
+    "number": "78",
+    "sourceSetID": "base5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-base5-78",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 85841,
+    "cardmarketID": 274131,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/base5-78",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.148604+00:00",
+    "cardName": "Goop Gas Attack",
+    "setName": "Team Rocket",
+    "number": "78",
+    "sourceSetID": "base5"
   },
   {
     "identity": {
@@ -89,10 +817,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.530437+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.148830+00:00",
     "cardName": "Cosmog",
     "setName": "Celebrations",
-    "number": "13"
+    "number": "13",
+    "sourceSetID": "cel25"
   },
   {
     "identity": {
@@ -108,10 +837,163 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.530733+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.149014+00:00",
     "cardName": "Flying Pikachu VMAX",
     "setName": "Celebrations",
-    "number": "7"
+    "number": "7",
+    "sourceSetID": "cel25"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-ecard3-110",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 90251,
+    "cardmarketID": 275368,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard3-110",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.149209+00:00",
+    "cardName": "Ursaring",
+    "setName": "Skyridge",
+    "number": "110",
+    "sourceSetID": "ecard3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-ecard3-110",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 90251,
+    "cardmarketID": 275368,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/ecard3-110",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.149242+00:00",
+    "cardName": "Ursaring",
+    "setName": "Skyridge",
+    "number": "110",
+    "sourceSetID": "ecard3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-gym1-95",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 88889,
+    "cardmarketID": 274231,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/gym1-95",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": "trend",
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.150016+00:00",
+    "cardName": "Sabrina's Slowpoke",
+    "setName": "Gym Heroes",
+    "number": "95",
+    "sourceSetID": "gym1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-gym1-95",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 88889,
+    "cardmarketID": null,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/gym1-95",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.149984+00:00",
+    "cardName": "Sabrina's Slowpoke",
+    "setName": "Gym Heroes",
+    "number": "95",
+    "sourceSetID": "gym1"
   },
   {
     "identity": {
@@ -127,29 +1009,263 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.531245+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.150193+00:00",
     "cardName": "Spiritomb",
     "setName": "Mega Evolution",
-    "number": "148"
+    "number": "148",
+    "sourceSetID": "me01"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-011",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 662143,
+    "cardmarketID": 857586,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-011",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.150396+00:00",
+    "cardName": "Charmander",
+    "setName": "Phantasmal Flames",
+    "number": "011",
+    "sourceSetID": "me02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-011",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 662143,
+    "cardmarketID": 857586,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-011",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.150428+00:00",
+    "cardName": "Charmander",
+    "setName": "Phantasmal Flames",
+    "number": "011",
+    "sourceSetID": "me02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-024",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 662213,
+    "cardmarketID": 857599,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-024",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.150677+00:00",
+    "cardName": "Piloswine",
+    "setName": "Phantasmal Flames",
+    "number": "024",
+    "sourceSetID": "me02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-024",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 662213,
+    "cardmarketID": 857599,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-024",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.150736+00:00",
+    "cardName": "Piloswine",
+    "setName": "Phantasmal Flames",
+    "number": "024",
+    "sourceSetID": "me02"
   },
   {
     "identity": {
       "cardID": "tcgdex-en-me02-026",
       "language": "English",
-      "finish": "Holo"
+      "finish": "Reverse holo"
     },
-    "variantID": "5zs5af49g93yryvw1ftj",
-    "tcgplayerID": 670788,
-    "cardmarketID": 867791,
-    "tcgPrinting": "holofoil",
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 662229,
+    "cardmarketID": 857601,
+    "tcgPrinting": "reverse-holofoil",
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-026",
     "expectedSubtype": null,
     "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.531558+00:00",
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.151044+00:00",
     "cardName": "Suicune",
     "setName": "Phantasmal Flames",
-    "number": "026"
+    "number": "026",
+    "sourceSetID": "me02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-055",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 660408,
+    "cardmarketID": 857630,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-055",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.151303+00:00",
+    "cardName": "Haunter",
+    "setName": "Phantasmal Flames",
+    "number": "055",
+    "sourceSetID": "me02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-me02-055",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 660408,
+    "cardmarketID": 857630,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/me02-055",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.151344+00:00",
+    "cardName": "Haunter",
+    "setName": "Phantasmal Flames",
+    "number": "055",
+    "sourceSetID": "me02"
   },
   {
     "identity": {
@@ -165,10 +1281,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.531842+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.151567+00:00",
     "cardName": "Beautifly",
     "setName": "Ascended Heroes",
-    "number": "219"
+    "number": "219",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -184,10 +1301,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.532112+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.151772+00:00",
     "cardName": "Dustox",
     "setName": "Ascended Heroes",
-    "number": "220"
+    "number": "220",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -203,10 +1321,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.532400+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.151959+00:00",
     "cardName": "Ethan's Magcargo",
     "setName": "Ascended Heroes",
-    "number": "222"
+    "number": "222",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -222,10 +1341,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.532682+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.152147+00:00",
     "cardName": "Marill",
     "setName": "Ascended Heroes",
-    "number": "232"
+    "number": "232",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -241,10 +1361,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.532950+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.152324+00:00",
     "cardName": "Team Rocket's Mimikyu",
     "setName": "Ascended Heroes",
-    "number": "238"
+    "number": "238",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -260,10 +1381,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.533211+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.152504+00:00",
     "cardName": "Mega Gengar ex",
     "setName": "Ascended Heroes",
-    "number": "269"
+    "number": "269",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -279,10 +1401,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.533476+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.152684+00:00",
     "cardName": "Mega Scrafty ex",
     "setName": "Ascended Heroes",
-    "number": "270"
+    "number": "270",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -298,10 +1421,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.534156+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.153110+00:00",
     "cardName": "Mega Dragonite ex",
     "setName": "Ascended Heroes",
-    "number": "271"
+    "number": "271",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -317,10 +1441,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.534448+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.153320+00:00",
     "cardName": "Mega Dragonite ex",
     "setName": "Ascended Heroes",
-    "number": "290"
+    "number": "290",
+    "sourceSetID": "me02.5"
   },
   {
     "identity": {
@@ -336,10 +1461,883 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.535294+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.153896+00:00",
     "cardName": "Surfing Beach",
     "setName": "Chaos Rising",
-    "number": "114"
+    "number": "114",
+    "sourceSetID": "me04"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-1",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 83534,
+    "cardmarketID": 274401,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-1",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154145+00:00",
+    "cardName": "Ampharos",
+    "setName": "Neo Genesis",
+    "number": "1",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-1",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 83534,
+    "cardmarketID": 274401,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-1",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154111+00:00",
+    "cardName": "Ampharos",
+    "setName": "Neo Genesis",
+    "number": "1",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-100",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 84891,
+    "cardmarketID": 274500,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-100",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154395+00:00",
+    "cardName": "Double Gust",
+    "setName": "Neo Genesis",
+    "number": "100",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-100",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 84891,
+    "cardmarketID": 274500,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-100",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154365+00:00",
+    "cardName": "Double Gust",
+    "setName": "Neo Genesis",
+    "number": "100",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-30",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 84352,
+    "cardmarketID": 274430,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-30",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154651+00:00",
+    "cardName": "Clefairy",
+    "setName": "Neo Genesis",
+    "number": "30",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-30",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 84352,
+    "cardmarketID": 274430,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-30",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154620+00:00",
+    "cardName": "Clefairy",
+    "setName": "Neo Genesis",
+    "number": "30",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-4",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 85412,
+    "cardmarketID": 274404,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-4",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154893+00:00",
+    "cardName": "Feraligatr",
+    "setName": "Neo Genesis",
+    "number": "4",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-4",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 85412,
+    "cardmarketID": 274404,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo1-4",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.154861+00:00",
+    "cardName": "Feraligatr",
+    "setName": "Neo Genesis",
+    "number": "4",
+    "sourceSetID": "neo1"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo2-12",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 90113,
+    "cardmarketID": 274523,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo2-12",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155129+00:00",
+    "cardName": "Tyranitar",
+    "setName": "Neo Discovery",
+    "number": "12",
+    "sourceSetID": "neo2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo2-12",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 90113,
+    "cardmarketID": 274523,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo2-12",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155099+00:00",
+    "cardName": "Tyranitar",
+    "setName": "Neo Discovery",
+    "number": "12",
+    "sourceSetID": "neo2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo2-9",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 88269,
+    "cardmarketID": 274520,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo2-9",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155362+00:00",
+    "cardName": "Poliwrath",
+    "setName": "Neo Discovery",
+    "number": "9",
+    "sourceSetID": "neo2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo2-9",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 88269,
+    "cardmarketID": 274520,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo2-9",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155332+00:00",
+    "cardName": "Poliwrath",
+    "setName": "Neo Discovery",
+    "number": "9",
+    "sourceSetID": "neo2"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo3-5",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 84745,
+    "cardmarketID": 274591,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo3-5",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155593+00:00",
+    "cardName": "Delibird",
+    "setName": "Neo Revelation",
+    "number": "5",
+    "sourceSetID": "neo3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo3-5",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 84745,
+    "cardmarketID": 274591,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo3-5",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155563+00:00",
+    "cardName": "Delibird",
+    "setName": "Neo Revelation",
+    "number": "5",
+    "sourceSetID": "neo3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo3-7",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "1st Edition"
+    },
+    "variantID": "3a83wf50ts0izj268xwv3crwi",
+    "tcgplayerID": 86118,
+    "cardmarketID": 274593,
+    "tcgPrinting": "1st-edition-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo3-7",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155828+00:00",
+    "cardName": "Ho-oh",
+    "setName": "Neo Revelation",
+    "number": "7",
+    "sourceSetID": "neo3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo3-7",
+      "language": "English",
+      "finish": "Holo",
+      "edition": "Unlimited"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 86118,
+    "cardmarketID": 274593,
+    "tcgPrinting": "unlimited-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo3-7",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited-holofoil"
+      },
+      {
+        "variantID": "3a83wf50ts0izj268xwv3crwi",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.155797+00:00",
+    "cardName": "Ho-oh",
+    "setName": "Neo Revelation",
+    "number": "7",
+    "sourceSetID": "neo3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo4-39",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 84645,
+    "cardmarketID": 274691,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo4-39",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156068+00:00",
+    "cardName": "Dark Quilava",
+    "setName": "Neo Destiny",
+    "number": "39",
+    "sourceSetID": "neo4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo4-39",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 84645,
+    "cardmarketID": 274691,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo4-39",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156035+00:00",
+    "cardName": "Dark Quilava",
+    "setName": "Neo Destiny",
+    "number": "39",
+    "sourceSetID": "neo4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo4-51",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition"
+    },
+    "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+    "tcgplayerID": 86748,
+    "cardmarketID": 274703,
+    "tcgPrinting": "1st-edition",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo4-51",
+    "expectedSubtype": null,
+    "expectedStamp": [
+      "1st-edition"
+    ],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156291+00:00",
+    "cardName": "Light Slowbro",
+    "setName": "Neo Destiny",
+    "number": "51",
+    "sourceSetID": "neo4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo4-51",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "Unlimited"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 86748,
+    "cardmarketID": 274703,
+    "tcgPrinting": "unlimited",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/neo4-51",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "unlimited"
+      },
+      {
+        "variantID": "2fnyg4g532wu2uft0spaa3eefrz",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [
+          "1st-edition"
+        ],
+        "printing": "1st-edition"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156258+00:00",
+    "cardName": "Light Slowbro",
+    "setName": "Neo Destiny",
+    "number": "51",
+    "sourceSetID": "neo4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-pl4-41",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 86029,
+    "cardmarketID": 278913,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/pl4-41",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156476+00:00",
+    "cardName": "Haunter",
+    "setName": "Arceus",
+    "number": "41",
+    "sourceSetID": "pl4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-pl4-41",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 86029,
+    "cardmarketID": 278913,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/pl4-41",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.156509+00:00",
+    "cardName": "Haunter",
+    "setName": "Arceus",
+    "number": "41",
+    "sourceSetID": "pl4"
   },
   {
     "identity": {
@@ -350,15 +2348,16 @@
     "variantID": "endfynwn4n10gzq",
     "tcgplayerID": 153452,
     "cardmarketID": 312547,
-    "tcgPrinting": "normal",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/smp-SM54",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.535778+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.156855+00:00",
     "cardName": "Lucario",
     "setName": "SM Black Star Promos",
-    "number": "SM54"
+    "number": "SM54",
+    "sourceSetID": "smp"
   },
   {
     "identity": {
@@ -374,10 +2373,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.536094+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.157041+00:00",
     "cardName": "Heracross",
     "setName": "Paldea Evolved",
-    "number": "194"
+    "number": "194",
+    "sourceSetID": "sv02"
   },
   {
     "identity": {
@@ -393,10 +2393,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.536361+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.157247+00:00",
     "cardName": "Marill",
     "setName": "Paldea Evolved",
-    "number": "204"
+    "number": "204",
+    "sourceSetID": "sv02"
   },
   {
     "identity": {
@@ -412,10 +2413,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.536611+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.157447+00:00",
     "cardName": "Tinkatuff",
     "setName": "Paldea Evolved",
-    "number": "217"
+    "number": "217",
+    "sourceSetID": "sv02"
   },
   {
     "identity": {
@@ -431,10 +2433,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.536847+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.157649+00:00",
     "cardName": "Orthworm",
     "setName": "Paldea Evolved",
-    "number": "224"
+    "number": "224",
+    "sourceSetID": "sv02"
   },
   {
     "identity": {
@@ -450,10 +2453,583 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.537079+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.157853+00:00",
     "cardName": "Flamigo",
     "setName": "Paldea Evolved",
-    "number": "227"
+    "number": "227",
+    "sourceSetID": "sv02"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03-180",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 509760,
+    "cardmarketID": 725260,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03-180",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158042+00:00",
+    "cardName": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "180",
+    "sourceSetID": "sv03"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03-180",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 509760,
+    "cardmarketID": 725260,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03-180",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158071+00:00",
+    "cardName": "Lechonk",
+    "setName": "Obsidian Flames",
+    "number": "180",
+    "sourceSetID": "sv03"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-018",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 502567,
+    "cardmarketID": 733613,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-018",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158255+00:00",
+    "cardName": "Pidgeot",
+    "setName": "151",
+    "number": "018",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-018",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 502567,
+    "cardmarketID": 733613,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-018",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158286+00:00",
+    "cardName": "Pidgeot",
+    "setName": "151",
+    "number": "018",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-025",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 517033,
+    "cardmarketID": 733620,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-025",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158497+00:00",
+    "cardName": "Pikachu",
+    "setName": "151",
+    "number": "025",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-079",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 516650,
+    "cardmarketID": 733674,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-079",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158680+00:00",
+    "cardName": "Slowpoke",
+    "setName": "151",
+    "number": "079",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-079",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 516650,
+    "cardmarketID": 733674,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-079",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158711+00:00",
+    "cardName": "Slowpoke",
+    "setName": "151",
+    "number": "079",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-080",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 516651,
+    "cardmarketID": 733675,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-080",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158895+00:00",
+    "cardName": "Slowbro",
+    "setName": "151",
+    "number": "080",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-080",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 516651,
+    "cardmarketID": 733675,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-080",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.158927+00:00",
+    "cardName": "Slowbro",
+    "setName": "151",
+    "number": "080",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-094",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 516663,
+    "cardmarketID": 733689,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-094",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.159282+00:00",
+    "cardName": "Gengar",
+    "setName": "151",
+    "number": "094",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-143",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 516706,
+    "cardmarketID": 733738,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-143",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.159470+00:00",
+    "cardName": "Snorlax",
+    "setName": "151",
+    "number": "143",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-143",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 516706,
+    "cardmarketID": 733738,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-143",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.159502+00:00",
+    "cardName": "Snorlax",
+    "setName": "151",
+    "number": "143",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-166",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 516997,
+    "cardmarketID": 733761,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-166",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.159691+00:00",
+    "cardName": "Bulbasaur",
+    "setName": "151",
+    "number": "166",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-175",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517035,
+    "cardmarketID": 733770,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-175",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.159874+00:00",
+    "cardName": "Psyduck",
+    "setName": "151",
+    "number": "175",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-176",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517034,
+    "cardmarketID": 733771,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-176",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.160053+00:00",
+    "cardName": "Poliwhirl",
+    "setName": "151",
+    "number": "176",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-180",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517031,
+    "cardmarketID": 733775,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-180",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.160472+00:00",
+    "cardName": "Omanyte",
+    "setName": "151",
+    "number": "180",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-181",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517020,
+    "cardmarketID": 733776,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-181",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.160679+00:00",
+    "cardName": "Dragonair",
+    "setName": "151",
+    "number": "181",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-199",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517045,
+    "cardmarketID": 733794,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-199",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.161053+00:00",
+    "cardName": "Charizard ex",
+    "setName": "151",
+    "number": "199",
+    "sourceSetID": "sv03.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-204",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 517050,
+    "cardmarketID": 733799,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-204",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.161510+00:00",
+    "cardName": "Giovanni's Charisma",
+    "setName": "151",
+    "number": "204",
+    "sourceSetID": "sv03.5"
   },
   {
     "identity": {
@@ -469,10 +3045,83 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.540666+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.161708+00:00",
     "cardName": "Garbodor",
     "setName": "Paradox Rift",
-    "number": "204"
+    "number": "204",
+    "sourceSetID": "sv04"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv04.5-057",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 534419,
+    "cardmarketID": 751595,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv04.5-057",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.161895+00:00",
+    "cardName": "Gengar",
+    "setName": "Paldean Fates",
+    "number": "057",
+    "sourceSetID": "sv04.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv04.5-057",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 534419,
+    "cardmarketID": 751595,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv04.5-057",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.161927+00:00",
+    "cardName": "Gengar",
+    "setName": "Paldean Fates",
+    "number": "057",
+    "sourceSetID": "sv04.5"
   },
   {
     "identity": {
@@ -488,10 +3137,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.540938+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.162110+00:00",
     "cardName": "Gastly",
     "setName": "Temporal Forces",
-    "number": "177"
+    "number": "177",
+    "sourceSetID": "sv05"
   },
   {
     "identity": {
@@ -507,10 +3157,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.541189+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.162285+00:00",
     "cardName": "Lairon",
     "setName": "Twilight Masquerade",
-    "number": "184"
+    "number": "184",
+    "sourceSetID": "sv06"
   },
   {
     "identity": {
@@ -526,10 +3177,155 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.541430+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.162473+00:00",
     "cardName": "Tatsugiri",
     "setName": "Twilight Masquerade",
-    "number": "186"
+    "number": "186",
+    "sourceSetID": "sv06"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv07-043",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 567269,
+    "cardmarketID": 785897,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv07-043",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.162657+00:00",
+    "cardName": "Chewtle",
+    "setName": "Stellar Crown",
+    "number": "043",
+    "sourceSetID": "sv07"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv07-043",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 567269,
+    "cardmarketID": 785897,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv07-043",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.162690+00:00",
+    "cardName": "Chewtle",
+    "setName": "Stellar Crown",
+    "number": "043",
+    "sourceSetID": "sv07"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv07-115",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 567341,
+    "cardmarketID": 785969,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv07-115",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.163056+00:00",
+    "cardName": "Noctowl",
+    "setName": "Stellar Crown",
+    "number": "115",
+    "sourceSetID": "sv07"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv07-115",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 567341,
+    "cardmarketID": 785969,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv07-115",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.163090+00:00",
+    "cardName": "Noctowl",
+    "setName": "Stellar Crown",
+    "number": "115",
+    "sourceSetID": "sv07"
   },
   {
     "identity": {
@@ -545,10 +3341,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.541854+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.163270+00:00",
     "cardName": "Exeggcute",
     "setName": "Surging Sparks",
-    "number": "192"
+    "number": "192",
+    "sourceSetID": "sv08"
   },
   {
     "identity": {
@@ -564,10 +3361,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.542081+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.163459+00:00",
     "cardName": "Skarmory",
     "setName": "Surging Sparks",
-    "number": "209"
+    "number": "209",
+    "sourceSetID": "sv08"
   },
   {
     "identity": {
@@ -583,10 +3381,47 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.542303+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.163648+00:00",
     "cardName": "Tyranitar ex",
     "setName": "Prismatic Evolutions",
-    "number": "064"
+    "number": "064",
+    "sourceSetID": "sv08.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv08.5-084",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 610439,
+    "cardmarketID": 805476,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.163837+00:00",
+    "cardName": "Lopunny",
+    "setName": "Prismatic Evolutions",
+    "number": "084",
+    "sourceSetID": "sv08.5"
   },
   {
     "identity": {
@@ -602,10 +3437,175 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.542520+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.164017+00:00",
     "cardName": "Wailord",
     "setName": "Journey Together",
-    "number": "162"
+    "number": "162",
+    "sourceSetID": "sv09"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv10-034",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 630809,
+    "cardmarketID": 825907,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv10-034",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      },
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.164262+00:00",
+    "cardName": "Ethan's Typhlosion",
+    "setName": "Destined Rivals",
+    "number": "034",
+    "sourceSetID": "sv10"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv10-034",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": null,
+    "cardmarketID": 828100,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv10-034",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.164297+00:00",
+    "cardName": "Ethan's Typhlosion",
+    "setName": "Destined Rivals",
+    "number": "034",
+    "sourceSetID": "sv10"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv10-034",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 630809,
+    "cardmarketID": 825907,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv10-034",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      },
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.164224+00:00",
+    "cardName": "Ethan's Typhlosion",
+    "setName": "Destined Rivals",
+    "number": "034",
+    "sourceSetID": "sv10"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv10-182",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 632982,
+    "cardmarketID": 826056,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv10-182",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.164484+00:00",
+    "cardName": "Team Rocket's Energy",
+    "setName": "Destined Rivals",
+    "number": "182",
+    "sourceSetID": "sv10"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv10-182",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 632982,
+    "cardmarketID": 826056,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv10-182",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.164514+00:00",
+    "cardName": "Team Rocket's Energy",
+    "setName": "Destined Rivals",
+    "number": "182",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -621,10 +3621,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.542735+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.164696+00:00",
     "cardName": "Ethan's Typhlosion",
     "setName": "Destined Rivals",
-    "number": "190"
+    "number": "190",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -640,10 +3641,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.542951+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.164875+00:00",
     "cardName": "Misty's Lapras",
     "setName": "Destined Rivals",
-    "number": "194"
+    "number": "194",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -659,10 +3661,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.543166+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.165054+00:00",
     "cardName": "Team Rocket's Murkrow",
     "setName": "Destined Rivals",
-    "number": "200"
+    "number": "200",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -678,10 +3681,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.543394+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.165231+00:00",
     "cardName": "Team Rocket's Nidoking ex",
     "setName": "Destined Rivals",
-    "number": "216"
+    "number": "216",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -697,10 +3701,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.543611+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.165414+00:00",
     "cardName": "Ethan's Ho-Oh ex",
     "setName": "Destined Rivals",
-    "number": "230"
+    "number": "230",
+    "sourceSetID": "sv10"
   },
   {
     "identity": {
@@ -716,10 +3721,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.543826+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.165590+00:00",
     "cardName": "Sandile",
     "setName": "Black Bolt",
-    "number": "135"
+    "number": "135",
+    "sourceSetID": "sv10.5b"
   },
   {
     "identity": {
@@ -735,10 +3741,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.544039+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.165767+00:00",
     "cardName": "Krookodile",
     "setName": "Black Bolt",
-    "number": "137"
+    "number": "137",
+    "sourceSetID": "sv10.5b"
   },
   {
     "identity": {
@@ -754,10 +3761,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.544431+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.166108+00:00",
     "cardName": "Blitzle",
     "setName": "White Flare",
-    "number": "114"
+    "number": "114",
+    "sourceSetID": "sv10.5w"
   },
   {
     "identity": {
@@ -773,10 +3781,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.544642+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.166288+00:00",
     "cardName": "Joltik",
     "setName": "White Flare",
-    "number": "116"
+    "number": "116",
+    "sourceSetID": "sv10.5w"
   },
   {
     "identity": {
@@ -792,10 +3801,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.544854+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.166469+00:00",
     "cardName": "Druddigon",
     "setName": "White Flare",
-    "number": "151"
+    "number": "151",
+    "sourceSetID": "sv10.5w"
   },
   {
     "identity": {
@@ -806,15 +3816,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 477182,
     "cardmarketID": 715758,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-044",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.545150+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.166647+00:00",
     "cardName": "Charmander",
     "setName": "SVP Black Star Promos",
-    "number": "044"
+    "number": "044",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -825,15 +3836,16 @@
     "variantID": "5zs5af49g93yryvw1ftj",
     "tcgplayerID": 517273,
     "cardmarketID": 720946,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-048",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.545385+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.166829+00:00",
     "cardName": "Squirtle",
     "setName": "SVP Black Star Promos",
-    "number": "048"
+    "number": "048",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -844,15 +3856,16 @@
     "variantID": "endfynwn4n10gzq",
     "tcgplayerID": 518861,
     "cardmarketID": 735302,
-    "tcgPrinting": "normal",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-085",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.545582+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167040+00:00",
     "cardName": "Pikachu with Grey Felt Hat",
     "setName": "SVP Black Star Promos",
-    "number": "085"
+    "number": "085",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -863,15 +3876,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 562018,
     "cardmarketID": 770951,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-132",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.545781+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167232+00:00",
     "cardName": "Greninja ex",
     "setName": "SVP Black Star Promos",
-    "number": "132"
+    "number": "132",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -882,15 +3896,16 @@
     "variantID": "5zs5af49g93yryvw1ftj",
     "tcgplayerID": 611826,
     "cardmarketID": 805364,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-167",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.545977+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167435+00:00",
     "cardName": "Flareon",
     "setName": "SVP Black Star Promos",
-    "number": "167"
+    "number": "167",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -901,15 +3916,16 @@
     "variantID": "5zs5af49g93yryvw1ftj",
     "tcgplayerID": 611827,
     "cardmarketID": 805365,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-168",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.546173+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167624+00:00",
     "cardName": "Vaporeon",
     "setName": "SVP Black Star Promos",
-    "number": "168"
+    "number": "168",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -920,15 +3936,16 @@
     "variantID": "5zs5af49g93yryvw1ftj",
     "tcgplayerID": 653353,
     "cardmarketID": 805366,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-169",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.546386+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167818+00:00",
     "cardName": "Jolteon",
     "setName": "SVP Black Star Promos",
-    "number": "169"
+    "number": "169",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -939,15 +3956,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 625181,
     "cardmarketID": 817780,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-189",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.546590+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.167997+00:00",
     "cardName": "N's Zorua",
     "setName": "SVP Black Star Promos",
-    "number": "189"
+    "number": "189",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -958,15 +3976,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 647306,
     "cardmarketID": 836659,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-211",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.546795+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.168179+00:00",
     "cardName": "Gothitelle",
     "setName": "SVP Black Star Promos",
-    "number": "211"
+    "number": "211",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -977,15 +3996,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 647309,
     "cardmarketID": 836658,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-212",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.547009+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.168357+00:00",
     "cardName": "Reuniclus",
     "setName": "SVP Black Star Promos",
-    "number": "212"
+    "number": "212",
+    "sourceSetID": "svp"
   },
   {
     "identity": {
@@ -1001,10 +4021,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.547218+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.168853+00:00",
     "cardName": "Radiant Greninja",
     "setName": "Astral Radiance",
-    "number": "046"
+    "number": "046",
+    "sourceSetID": "swsh10"
   },
   {
     "identity": {
@@ -1020,10 +4041,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.547424+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.169062+00:00",
     "cardName": "Garchomp V",
     "setName": "Astral Radiance",
-    "number": "117"
+    "number": "117",
+    "sourceSetID": "swsh10"
   },
   {
     "identity": {
@@ -1034,15 +4056,88 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 272483,
     "cardmarketID": 658889,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh10tg-TG12",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.547802+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.169607+00:00",
     "cardName": "Hoothoot",
     "setName": "Astral Radiance Trainer Gallery",
-    "number": "TG12"
+    "number": "TG12",
+    "sourceSetID": "swsh10tg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh11-026",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 283897,
+    "cardmarketID": 674037,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11-026",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.169973+00:00",
+    "cardName": "Chandelure",
+    "setName": "Lost Origin",
+    "number": "026",
+    "sourceSetID": "swsh11"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh11-026",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 283897,
+    "cardmarketID": 674037,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11-026",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.170018+00:00",
+    "cardName": "Chandelure",
+    "setName": "Lost Origin",
+    "number": "026",
+    "sourceSetID": "swsh11"
   },
   {
     "identity": {
@@ -1058,10 +4153,83 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.548379+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.170419+00:00",
     "cardName": "Giratina V",
     "setName": "Lost Origin",
-    "number": "130"
+    "number": "130",
+    "sourceSetID": "swsh11"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh11-165",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 284097,
+    "cardmarketID": 674173,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11-165",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.170623+00:00",
+    "cardName": "Panic Mask",
+    "setName": "Lost Origin",
+    "number": "165",
+    "sourceSetID": "swsh11"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh11-165",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 284097,
+    "cardmarketID": 674173,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11-165",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.170656+00:00",
+    "cardName": "Panic Mask",
+    "setName": "Lost Origin",
+    "number": "165",
+    "sourceSetID": "swsh11"
   },
   {
     "identity": {
@@ -1077,10 +4245,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.548591+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.170840+00:00",
     "cardName": "Giratina V",
     "setName": "Lost Origin",
-    "number": "186"
+    "number": "186",
+    "sourceSetID": "swsh11"
   },
   {
     "identity": {
@@ -1091,15 +4260,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 284271,
     "cardmarketID": 674230,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11tg-TG11",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.549060+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.171197+00:00",
     "cardName": "Castform",
     "setName": "Lost Origin Trainer Gallery",
-    "number": "TG11"
+    "number": "TG11",
+    "sourceSetID": "swsh11tg"
   },
   {
     "identity": {
@@ -1110,15 +4280,648 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 284283,
     "cardmarketID": 674235,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh11tg-TG17",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.549289+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.171405+00:00",
     "cardName": "Pikachu VMAX",
     "setName": "Lost Origin Trainer Gallery",
-    "number": "TG17"
+    "number": "TG17",
+    "sourceSetID": "swsh11tg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12-105",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 451759,
+    "cardmarketID": 682152,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12-105",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.171778+00:00",
+    "cardName": "Crobat",
+    "setName": "Silver Tempest",
+    "number": "105",
+    "sourceSetID": "swsh12"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12-105",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 451759,
+    "cardmarketID": 682152,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12-105",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.171811+00:00",
+    "cardName": "Crobat",
+    "setName": "Silver Tempest",
+    "number": "105",
+    "sourceSetID": "swsh12"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-036",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478135,
+    "cardmarketID": 691753,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-036",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.171995+00:00",
+    "cardName": "Kyogre",
+    "setName": "Crown Zenith",
+    "number": "036",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-036",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 478135,
+    "cardmarketID": 691753,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-036",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.172028+00:00",
+    "cardName": "Kyogre",
+    "setName": "Crown Zenith",
+    "number": "036",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-047",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 478156,
+    "cardmarketID": 691764,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-047",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.172384+00:00",
+    "cardName": "Emolga",
+    "setName": "Crown Zenith",
+    "number": "047",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-047",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 478156,
+    "cardmarketID": 691764,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-047",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.172418+00:00",
+    "cardName": "Emolga",
+    "setName": "Crown Zenith",
+    "number": "047",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-086",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 478223,
+    "cardmarketID": 691804,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-086",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.172790+00:00",
+    "cardName": "Scizor",
+    "setName": "Crown Zenith",
+    "number": "086",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-086",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 478223,
+    "cardmarketID": 691804,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-086",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.172825+00:00",
+    "cardName": "Scizor",
+    "setName": "Crown Zenith",
+    "number": "086",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-107",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478117,
+    "cardmarketID": 691826,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-107",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.173170+00:00",
+    "cardName": "Ditto",
+    "setName": "Crown Zenith",
+    "number": "107",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-107",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 478117,
+    "cardmarketID": 691826,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-107",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.173238+00:00",
+    "cardName": "Ditto",
+    "setName": "Crown Zenith",
+    "number": "107",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-109",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 478136,
+    "cardmarketID": 691828,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-109",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.173551+00:00",
+    "cardName": "Snorlax",
+    "setName": "Crown Zenith",
+    "number": "109",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5-109",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 478136,
+    "cardmarketID": 691828,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5-109",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.173602+00:00",
+    "cardName": "Snorlax",
+    "setName": "Crown Zenith",
+    "number": "109",
+    "sourceSetID": "swsh12.5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG19",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 475444,
+    "cardmarketID": 691898,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG19",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.173939+00:00",
+    "cardName": "Altaria",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG19",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG22",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 475445,
+    "cardmarketID": 691901,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG22",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.174259+00:00",
+    "cardName": "Ditto",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG22",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG25",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 475643,
+    "cardmarketID": 691904,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG25",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.174437+00:00",
+    "cardName": "Bibarel",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG25",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG34",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478063,
+    "cardmarketID": 691913,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG34",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.174967+00:00",
+    "cardName": "Mareep",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG34",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG36",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478065,
+    "cardmarketID": 691916,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG36",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.175149+00:00",
+    "cardName": "Entei V",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG36",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG38",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478067,
+    "cardmarketID": 691918,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG38",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.175326+00:00",
+    "cardName": "Suicune V",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG38",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG41",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478069,
+    "cardmarketID": 691921,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG41",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.175499+00:00",
+    "cardName": "Raikou V",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG41",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG44",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 477057,
+    "cardmarketID": 691924,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG44",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.175670+00:00",
+    "cardName": "Mewtwo VSTAR",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG44",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG45",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 477354,
+    "cardmarketID": 691925,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG45",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.175841+00:00",
+    "cardName": "Deoxys VMAX",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG45",
+    "sourceSetID": "swsh12.5gg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh12.5gg-GG50",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 478077,
+    "cardmarketID": 691930,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12.5gg-GG50",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-13T20:01:48.176010+00:00",
+    "cardName": "Darkrai VSTAR",
+    "setName": "Crown Zenith Galarian Gallery",
+    "number": "GG50",
+    "sourceSetID": "swsh12.5gg"
   },
   {
     "identity": {
@@ -1129,15 +4932,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 452017,
     "cardmarketID": 682267,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12tg-TG03",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.552402+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.176179+00:00",
     "cardName": "Flaaffy",
     "setName": "Silver Tempest Trainer Gallery",
-    "number": "TG03"
+    "number": "TG03",
+    "sourceSetID": "swsh12tg"
   },
   {
     "identity": {
@@ -1148,15 +4952,88 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 452023,
     "cardmarketID": 682273,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh12tg-TG09",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.552609+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.176347+00:00",
     "cardName": "Druddigon",
     "setName": "Silver Tempest Trainer Gallery",
-    "number": "TG09"
+    "number": "TG09",
+    "sourceSetID": "swsh12tg"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh3-56",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 219394,
+    "cardmarketID": 483154,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh3-56",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.176531+00:00",
+    "cardName": "Flaaffy",
+    "setName": "Darkness Ablaze",
+    "number": "56",
+    "sourceSetID": "swsh3"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh3-56",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 219394,
+    "cardmarketID": 483154,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh3-56",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.176565+00:00",
+    "cardName": "Flaaffy",
+    "setName": "Darkness Ablaze",
+    "number": "56",
+    "sourceSetID": "swsh3"
   },
   {
     "identity": {
@@ -1172,10 +5049,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.552823+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.176736+00:00",
     "cardName": "Jirachi",
     "setName": "Vivid Voltage",
-    "number": "119"
+    "number": "119",
+    "sourceSetID": "swsh4"
   },
   {
     "identity": {
@@ -1191,10 +5069,1091 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553036+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.176910+00:00",
     "cardName": "Celebi",
     "setName": "Vivid Voltage",
-    "number": "9"
+    "number": "9",
+    "sourceSetID": "swsh4"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh5-92",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 234204,
+    "cardmarketID": 545551,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh5-92",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177086+00:00",
+    "cardName": "Galarian Slowbro",
+    "setName": "Battle Styles",
+    "number": "92",
+    "sourceSetID": "swsh5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh5-92",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 234204,
+    "cardmarketID": 545551,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh5-92",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177121+00:00",
+    "cardName": "Galarian Slowbro",
+    "setName": "Battle Styles",
+    "number": "92",
+    "sourceSetID": "swsh5"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh6-57",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 241716,
+    "cardmarketID": 567137,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh6-57",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177298+00:00",
+    "cardName": "Gengar",
+    "setName": "Chilling Reign",
+    "number": "57",
+    "sourceSetID": "swsh6"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh6-57",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 241716,
+    "cardmarketID": 567137,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh6-57",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177333+00:00",
+    "cardName": "Gengar",
+    "setName": "Chilling Reign",
+    "number": "57",
+    "sourceSetID": "swsh6"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-110",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253268,
+    "cardmarketID": 582601,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-110",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177505+00:00",
+    "cardName": "Jigglypuff",
+    "setName": "Fusion Strike",
+    "number": "110",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-110",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253268,
+    "cardmarketID": 582601,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-110",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177540+00:00",
+    "cardName": "Jigglypuff",
+    "setName": "Fusion Strike",
+    "number": "110",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-120",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 253293,
+    "cardmarketID": 582638,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-120",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177717+00:00",
+    "cardName": "Deoxys",
+    "setName": "Fusion Strike",
+    "number": "120",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-120",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253293,
+    "cardmarketID": 582638,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-120",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.177753+00:00",
+    "cardName": "Deoxys",
+    "setName": "Fusion Strike",
+    "number": "120",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-142",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253352,
+    "cardmarketID": 582759,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-142",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178100+00:00",
+    "cardName": "Makuhita",
+    "setName": "Fusion Strike",
+    "number": "142",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-142",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253352,
+    "cardmarketID": 582759,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-142",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178132+00:00",
+    "cardName": "Makuhita",
+    "setName": "Fusion Strike",
+    "number": "142",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-163",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253377,
+    "cardmarketID": 582791,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-163",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178302+00:00",
+    "cardName": "Sharpedo",
+    "setName": "Fusion Strike",
+    "number": "163",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-163",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253377,
+    "cardmarketID": 582791,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-163",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178336+00:00",
+    "cardName": "Sharpedo",
+    "setName": "Fusion Strike",
+    "number": "163",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-206",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253301,
+    "cardmarketID": 582903,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-206",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178517+00:00",
+    "cardName": "Snorlax",
+    "setName": "Fusion Strike",
+    "number": "206",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-206",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253301,
+    "cardmarketID": 582903,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-206",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178551+00:00",
+    "cardName": "Snorlax",
+    "setName": "Fusion Strike",
+    "number": "206",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-221",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253322,
+    "cardmarketID": 582957,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-221",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178726+00:00",
+    "cardName": "Wooloo",
+    "setName": "Fusion Strike",
+    "number": "221",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-221",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253322,
+    "cardmarketID": 582957,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-221",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178761+00:00",
+    "cardName": "Wooloo",
+    "setName": "Fusion Strike",
+    "number": "221",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-55",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253186,
+    "cardmarketID": 582189,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-55",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178935+00:00",
+    "cardName": "Totodile",
+    "setName": "Fusion Strike",
+    "number": "55",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-55",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253186,
+    "cardmarketID": 582189,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-55",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.178969+00:00",
+    "cardName": "Totodile",
+    "setName": "Fusion Strike",
+    "number": "55",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-56",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253187,
+    "cardmarketID": 582190,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-56",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179142+00:00",
+    "cardName": "Croconaw",
+    "setName": "Fusion Strike",
+    "number": "56",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-56",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253187,
+    "cardmarketID": 582190,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-56",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179177+00:00",
+    "cardName": "Croconaw",
+    "setName": "Fusion Strike",
+    "number": "56",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-57",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 253188,
+    "cardmarketID": 582191,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-57",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179579+00:00",
+    "cardName": "Feraligatr",
+    "setName": "Fusion Strike",
+    "number": "57",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-57",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253188,
+    "cardmarketID": 582191,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-57",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179614+00:00",
+    "cardName": "Feraligatr",
+    "setName": "Fusion Strike",
+    "number": "57",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-58",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 253189,
+    "cardmarketID": 582192,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-58",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179788+00:00",
+    "cardName": "Marill",
+    "setName": "Fusion Strike",
+    "number": "58",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-58",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253189,
+    "cardmarketID": 582192,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-58",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.179823+00:00",
+    "cardName": "Marill",
+    "setName": "Fusion Strike",
+    "number": "58",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-64",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 253205,
+    "cardmarketID": 582198,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-64",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180126+00:00",
+    "cardName": "Swampert",
+    "setName": "Fusion Strike",
+    "number": "64",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh8-64",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 253205,
+    "cardmarketID": 582198,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh8-64",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180161+00:00",
+    "cardName": "Swampert",
+    "setName": "Fusion Strike",
+    "number": "64",
+    "sourceSetID": "swsh8"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh9-009",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 263595,
+    "cardmarketID": 608433,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh9-009",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180336+00:00",
+    "cardName": "Burmy",
+    "setName": "Brilliant Stars",
+    "number": "009",
+    "sourceSetID": "swsh9"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh9-009",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 263595,
+    "cardmarketID": 608433,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh9-009",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180370+00:00",
+    "cardName": "Burmy",
+    "setName": "Brilliant Stars",
+    "number": "009",
+    "sourceSetID": "swsh9"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh9-056",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 263772,
+    "cardmarketID": 608506,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh9-056",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180556+00:00",
+    "cardName": "Mewtwo",
+    "setName": "Brilliant Stars",
+    "number": "056",
+    "sourceSetID": "swsh9"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-swsh9-056",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 263772,
+    "cardmarketID": 608506,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh9-056",
+    "expectedSubtype": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal"
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil"
+      }
+    ],
+    "reviewedAt": "2026-10-13T20:01:48.180596+00:00",
+    "cardName": "Mewtwo",
+    "setName": "Brilliant Stars",
+    "number": "056",
+    "sourceSetID": "swsh9"
   },
   {
     "identity": {
@@ -1205,15 +6164,16 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 264212,
     "cardmarketID": 608735,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/en/cards/swsh9tg-TG03",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553272+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.180782+00:00",
     "cardName": "Octillery",
     "setName": "Brilliant Stars Trainer Gallery",
-    "number": "TG03"
+    "number": "TG03",
+    "sourceSetID": "swsh9tg"
   },
   {
     "identity": {
@@ -1229,10 +6189,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553479+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.180957+00:00",
     "cardName": "Vaporeon V",
     "setName": "SWSH Black Star Promos",
-    "number": "SWSH181"
+    "number": "SWSH181",
+    "sourceSetID": "swshp"
   },
   {
     "identity": {
@@ -1248,10 +6209,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553689+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.181136+00:00",
     "cardName": "Eevee",
     "setName": "SWSH Black Star Promos",
-    "number": "SWSH190"
+    "number": "SWSH190",
+    "sourceSetID": "swshp"
   },
   {
     "identity": {
@@ -1267,10 +6229,11 @@
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553908+00:00",
+    "reviewedAt": "2026-10-13T20:01:48.181309+00:00",
     "cardName": "Charizard V",
     "setName": "SWSH Black Star Promos",
-    "number": "SWSH260"
+    "number": "SWSH260",
+    "sourceSetID": "swshp"
   },
   {
     "identity": {
@@ -1281,14 +6244,15 @@
     "variantID": "jr7oetx1mqug9",
     "tcgplayerID": 571750,
     "cardmarketID": 687774,
-    "tcgPrinting": "holofoil",
+    "tcgPrinting": null,
     "evidenceURL": "https://api.tcgdex.net/v2/ja/cards/S12a-212",
     "expectedSubtype": null,
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T16:03:20.553973+00:00",
-    "cardName": "\u30ea\u30b6\u30fc\u30c9\u30f3VSTAR",
-    "setName": "VSTAR\u30e6\u30cb\u30d0\u30fc\u30b9",
-    "number": "212"
+    "reviewedAt": "2026-10-13T20:01:48.181644+00:00",
+    "cardName": "リザードンVSTAR",
+    "setName": "VSTARユニバース",
+    "number": "212",
+    "sourceSetID": "S12a"
   }
 ]

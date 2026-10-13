@@ -6,7 +6,7 @@ TCGdex is the community foundation; reviewed Folio supplements and exact importe
 
 ## Release and coverage
 
-`catalog/manifest.json` points to an immutable SHA-256-addressed payload. Clients verify schema, digest, byte count, regional identities and stored printing stability before adopting it. Cached data and the bundled snapshot are offline fallbacks. Releases contain metadata only, never user collection data or prices.
+`catalog/manifest.json` points to an immutable SHA-256-addressed payload. Clients verify schema, digest, byte count, regional identities and stored printing stability before adopting it. Cached data and the bundled snapshot are offline fallbacks. Catalog releases contain metadata only, never user collection data or prices. Dated market references live in the separate `pricing/` feed.
 
 `catalog/coverage-audit.json` reports records, supplied artwork, reviewed identities, variant checks, mappings and known missing sets separately. Provider totals and reviewed checklist totals remain distinct. `catalog/artwork-health.json` is a rotating HTTP sample, not a visual authenticity or rights check. `catalog/source-watch.json` is a partial inbox of official product references; leads require review before card records are admitted.
 
@@ -32,3 +32,11 @@ Coverage remains incomplete, especially Japanese artwork, historical mainland Ch
 ## Japanese artwork reference update — 12 October 2026
 
 Release `v1-a273cbd8abd9741e` preserves all 44,335 records, 568 admitted products and 23 importer mappings. It adds 910 identity-bound Japanese TCGdex image references, for 4,937 Japanese records with supplied artwork. Names and collector numbers were inspected; finish and edition remain unverified. This is an image-reference update, not worldwide coverage completion. No image bytes, private research, local archive paths or noncommercial source assets are published.
+
+## Daily market references
+
+A separate `pricing/manifest.json` points to a small immutable, SHA-256 checked price feed. The daily job runs at **10:43 UTC** (GitHub scheduling can be delayed) and can also be started manually. It downloads Cardmarket's official bulk files to temporary runner storage, verifies exact approved TCGdex printings, and publishes only dated references for the reviewed mappings. Full provider files, private collections and API keys are never committed. The full local archive remains on the owner's external drive.
+
+Price changes on already reviewed identities publish automatically; new identities and variants require review through `backend/marketplace-mappings.json`. The shared mapping/adapter copies originate in the private Folio app repository and must be updated together. A failed card request retains that card's old prices and dates. A broad outage fails the run and keeps the last publication. Explicit changed/ambiguous identities remove obsolete prices. A newly fetched older source price cannot replace a newer observation. Reports give refresh counts; they do not claim catalog-wide pricing coverage.
+
+The app needs one release containing the feed reader. After that, it checks when launched, foregrounded or when a card is opened (at most hourly after success; five-minute backoff after failure), and caches verified updates for offline viewing. Source timestamps remain separate from feed publication time. This feed supplies raw USD/EUR market references, not exact-condition or graded portfolio valuations. No paid pricing API is used by the daily job.

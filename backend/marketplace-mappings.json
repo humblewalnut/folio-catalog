@@ -2785,42 +2785,6 @@
   },
   {
     "identity": {
-      "cardID": "tcgdex-en-sv03.5-094",
-      "language": "English",
-      "finish": "Reverse holo"
-    },
-    "variantID": "cm4kqul3x1bwlz1f",
-    "tcgplayerID": 516663,
-    "cardmarketID": 733689,
-    "tcgPrinting": "reverse-holofoil",
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-094",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": null,
-    "tcgVariants": [
-      {
-        "variantID": "jr7oetx1mqug9",
-        "type": "holo",
-        "subtype": null,
-        "stamp": [],
-        "printing": "holofoil"
-      },
-      {
-        "variantID": "cm4kqul3x1bwlz1f",
-        "type": "reverse",
-        "subtype": null,
-        "stamp": [],
-        "printing": "reverse-holofoil"
-      }
-    ],
-    "reviewedAt": "2026-10-13T20:01:48.159282+00:00",
-    "cardName": "Gengar",
-    "setName": "151",
-    "number": "094",
-    "sourceSetID": "sv03.5"
-  },
-  {
-    "identity": {
       "cardID": "tcgdex-en-sv03.5-143",
       "language": "English",
       "finish": "Normal"
@@ -3389,42 +3353,6 @@
   },
   {
     "identity": {
-      "cardID": "tcgdex-en-sv08.5-084",
-      "language": "English",
-      "finish": "Normal"
-    },
-    "variantID": "endfynwn4n10gzq",
-    "tcgplayerID": 610439,
-    "cardmarketID": 805476,
-    "tcgPrinting": "normal",
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": null,
-    "tcgVariants": [
-      {
-        "variantID": "endfynwn4n10gzq",
-        "type": "normal",
-        "subtype": null,
-        "stamp": [],
-        "printing": "normal"
-      },
-      {
-        "variantID": "cm4kqul3x1bwlz1f",
-        "type": "reverse",
-        "subtype": null,
-        "stamp": [],
-        "printing": "reverse-holofoil"
-      }
-    ],
-    "reviewedAt": "2026-10-13T20:01:48.163837+00:00",
-    "cardName": "Lopunny",
-    "setName": "Prismatic Evolutions",
-    "number": "084",
-    "sourceSetID": "sv08.5"
-  },
-  {
-    "identity": {
       "cardID": "tcgdex-en-sv09-162",
       "language": "English",
       "finish": "Holo"
@@ -3829,26 +3757,6 @@
   },
   {
     "identity": {
-      "cardID": "tcgdex-en-svp-048",
-      "language": "English",
-      "finish": "Holo"
-    },
-    "variantID": "5zs5af49g93yryvw1ftj",
-    "tcgplayerID": 517273,
-    "cardmarketID": 720946,
-    "tcgPrinting": null,
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-048",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T20:01:48.166829+00:00",
-    "cardName": "Squirtle",
-    "setName": "SVP Black Star Promos",
-    "number": "048",
-    "sourceSetID": "svp"
-  },
-  {
-    "identity": {
       "cardID": "tcgdex-en-svp-085",
       "language": "English",
       "finish": "Normal"
@@ -3885,66 +3793,6 @@
     "cardName": "Greninja ex",
     "setName": "SVP Black Star Promos",
     "number": "132",
-    "sourceSetID": "svp"
-  },
-  {
-    "identity": {
-      "cardID": "tcgdex-en-svp-167",
-      "language": "English",
-      "finish": "Holo"
-    },
-    "variantID": "5zs5af49g93yryvw1ftj",
-    "tcgplayerID": 611826,
-    "cardmarketID": 805364,
-    "tcgPrinting": null,
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-167",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T20:01:48.167435+00:00",
-    "cardName": "Flareon",
-    "setName": "SVP Black Star Promos",
-    "number": "167",
-    "sourceSetID": "svp"
-  },
-  {
-    "identity": {
-      "cardID": "tcgdex-en-svp-168",
-      "language": "English",
-      "finish": "Holo"
-    },
-    "variantID": "5zs5af49g93yryvw1ftj",
-    "tcgplayerID": 611827,
-    "cardmarketID": 805365,
-    "tcgPrinting": null,
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-168",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T20:01:48.167624+00:00",
-    "cardName": "Vaporeon",
-    "setName": "SVP Black Star Promos",
-    "number": "168",
-    "sourceSetID": "svp"
-  },
-  {
-    "identity": {
-      "cardID": "tcgdex-en-svp-169",
-      "language": "English",
-      "finish": "Holo"
-    },
-    "variantID": "5zs5af49g93yryvw1ftj",
-    "tcgplayerID": 653353,
-    "cardmarketID": 805366,
-    "tcgPrinting": null,
-    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-169",
-    "expectedSubtype": null,
-    "expectedStamp": [],
-    "cardmarketTrendField": "trend",
-    "reviewedAt": "2026-10-13T20:01:48.167818+00:00",
-    "cardName": "Jolteon",
-    "setName": "SVP Black Star Promos",
-    "number": "169",
     "sourceSetID": "svp"
   },
   {
@@ -6250,9 +6098,297 @@
     "expectedStamp": [],
     "cardmarketTrendField": "trend",
     "reviewedAt": "2026-10-13T20:01:48.181644+00:00",
-    "cardName": "リザードンVSTAR",
-    "setName": "VSTARユニバース",
+    "cardName": "\u30ea\u30b6\u30fc\u30c9\u30f3VSTAR",
+    "setName": "VSTAR\u30e6\u30cb\u30d0\u30fc\u30b9",
     "number": "212",
     "sourceSetID": "S12a"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-094",
+      "language": "English",
+      "finish": "Holo"
+    },
+    "variantID": "jr7oetx1mqug9",
+    "tcgplayerID": 516663,
+    "cardmarketID": 733689,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-094",
+    "expectedSubtype": null,
+    "expectedFoil": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil",
+        "foil": null
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil",
+        "foil": null
+      }
+    ],
+    "reviewedAt": "2026-10-14T05:26:33.011647+00:00",
+    "cardName": "Gengar",
+    "number": "094",
+    "sourceSetID": "sv03.5",
+    "setName": "151"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv03.5-094",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 516663,
+    "cardmarketID": 733689,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv03.5-094",
+    "expectedSubtype": null,
+    "expectedFoil": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "jr7oetx1mqug9",
+        "type": "holo",
+        "subtype": null,
+        "stamp": [],
+        "printing": "holofoil",
+        "foil": null
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil",
+        "foil": null
+      }
+    ],
+    "reviewedAt": "2026-10-14T05:26:33.011939+00:00",
+    "cardName": "Gengar",
+    "number": "094",
+    "sourceSetID": "sv03.5",
+    "setName": "151"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv08.5-084",
+      "language": "English",
+      "finish": "Normal"
+    },
+    "variantID": "endfynwn4n10gzq",
+    "tcgplayerID": 610439,
+    "cardmarketID": 805476,
+    "tcgPrinting": "normal",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
+    "expectedSubtype": null,
+    "expectedFoil": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal",
+        "foil": null
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil",
+        "foil": null
+      }
+    ],
+    "reviewedAt": "2026-10-14T05:26:33.012337+00:00",
+    "cardName": "Lopunny",
+    "number": "084",
+    "sourceSetID": "sv08.5",
+    "setName": "Prismatic Evolutions"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv08.5-084",
+      "language": "English",
+      "finish": "Reverse holo"
+    },
+    "variantID": "cm4kqul3x1bwlz1f",
+    "tcgplayerID": 610439,
+    "cardmarketID": 805476,
+    "tcgPrinting": "reverse-holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
+    "expectedSubtype": null,
+    "expectedFoil": null,
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "tcgVariants": [
+      {
+        "variantID": "endfynwn4n10gzq",
+        "type": "normal",
+        "subtype": null,
+        "stamp": [],
+        "printing": "normal",
+        "foil": null
+      },
+      {
+        "variantID": "cm4kqul3x1bwlz1f",
+        "type": "reverse",
+        "subtype": null,
+        "stamp": [],
+        "printing": "reverse-holofoil",
+        "foil": null
+      }
+    ],
+    "reviewedAt": "2026-10-14T05:26:33.012339+00:00",
+    "cardName": "Lopunny",
+    "number": "084",
+    "sourceSetID": "sv08.5",
+    "setName": "Prismatic Evolutions"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv08.5-084",
+      "language": "English",
+      "finish": "Reverse holo",
+      "variant": "Poke Ball Pattern"
+    },
+    "variantID": "3739bbtj3i910y5ynn9xc6ryf",
+    "tcgplayerID": 610597,
+    "cardmarketID": 806528,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
+    "expectedSubtype": null,
+    "expectedFoil": "pokeball",
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "reviewedAt": "2026-10-14T05:26:33.012340+00:00",
+    "cardName": "Lopunny",
+    "number": "084",
+    "sourceSetID": "sv08.5",
+    "setName": "Prismatic Evolutions"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sv08.5-084",
+      "language": "English",
+      "finish": "Reverse holo",
+      "variant": "Master Ball Pattern"
+    },
+    "variantID": "2asus05yghmpd1ud1sdmlq3as4e",
+    "tcgplayerID": 610698,
+    "cardmarketID": 806529,
+    "tcgPrinting": "holofoil",
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/sv08.5-084",
+    "expectedSubtype": null,
+    "expectedFoil": "masterball",
+    "expectedStamp": [],
+    "cardmarketTrendField": null,
+    "reviewedAt": "2026-10-14T05:26:33.012340+00:00",
+    "cardName": "Lopunny",
+    "number": "084",
+    "sourceSetID": "sv08.5",
+    "setName": "Prismatic Evolutions"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-048",
+      "language": "English",
+      "finish": "Holo",
+      "variant": "Cosmos Holo"
+    },
+    "variantID": "5zs5af49g93yryvw1ftj",
+    "tcgplayerID": 517273,
+    "cardmarketID": 720946,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-048",
+    "expectedSubtype": null,
+    "expectedFoil": "cosmos",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-14T05:26:33.012540+00:00",
+    "cardName": "Squirtle",
+    "number": "048",
+    "sourceSetID": "svp",
+    "setName": "SVP Black Star Promos"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-167",
+      "language": "English",
+      "finish": "Holo",
+      "variant": "Cosmos Holo"
+    },
+    "variantID": "5zs5af49g93yryvw1ftj",
+    "tcgplayerID": 611826,
+    "cardmarketID": 805364,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-167",
+    "expectedSubtype": null,
+    "expectedFoil": "cosmos",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-14T05:26:33.012725+00:00",
+    "cardName": "Flareon",
+    "number": "167",
+    "sourceSetID": "svp",
+    "setName": "SVP Black Star Promos"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-168",
+      "language": "English",
+      "finish": "Holo",
+      "variant": "Cosmos Holo"
+    },
+    "variantID": "5zs5af49g93yryvw1ftj",
+    "tcgplayerID": 611827,
+    "cardmarketID": 805365,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-168",
+    "expectedSubtype": null,
+    "expectedFoil": "cosmos",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-14T05:26:33.012933+00:00",
+    "cardName": "Vaporeon",
+    "number": "168",
+    "sourceSetID": "svp",
+    "setName": "SVP Black Star Promos"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-169",
+      "language": "English",
+      "finish": "Holo",
+      "variant": "Cosmos Holo"
+    },
+    "variantID": "5zs5af49g93yryvw1ftj",
+    "tcgplayerID": 653353,
+    "cardmarketID": 805366,
+    "tcgPrinting": null,
+    "evidenceURL": "https://api.tcgdex.net/v2/en/cards/svp-169",
+    "expectedSubtype": null,
+    "expectedFoil": "cosmos",
+    "expectedStamp": [],
+    "cardmarketTrendField": "trend",
+    "reviewedAt": "2026-10-14T05:26:33.013135+00:00",
+    "cardName": "Jolteon",
+    "number": "169",
+    "sourceSetID": "svp",
+    "setName": "SVP Black Star Promos"
   }
 ]

@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '43 10 * * *'
   pull_request:
-    paths: ['pricing/**', 'pricing-v2/**', 'scripts/refresh-tcgcsv-feed.mjs', 'backend/**', 'scripts/*market*.mjs', 'scripts/*cardmarket*.py', '.github/workflows/pricing.yml']
+    paths: ['pricing/**', 'pricing-v2/**', 'pricing-v3/**', 'scripts/refresh-tcgcsv-feed.mjs', 'scripts/refresh-pricing-v3.mjs', 'backend/**', 'scripts/*market*.mjs', 'scripts/*cardmarket*.py', '.github/workflows/pricing.yml']
 permissions:
   contents: read
 concurrency:
@@ -23,7 +23,7 @@ jobs:
           node-version: '24'
       - name: Test outage handling, printing matches and source dates
         run: |
-          node --test backend/market*.test.mjs backend/tcgcsv*.test.mjs
+          node --test backend/market*.test.mjs backend/tcgcsv*.test.mjs backend/compact-feed.test.mjs backend/pricing-v3.test.mjs
           python3 -m unittest discover -s scripts -p 'test_archive_cardmarket.py' -v
           node --input-type=module -e 'import fs from "node:fs"; import {reviewedMappings} from "./backend/marketplaces.mjs"; reviewedMappings(JSON.parse(fs.readFileSync("backend/marketplace-mappings.json")));'
       - name: Download official bulk guide and refresh reviewed references
@@ -38,12 +38,19 @@ jobs:
         run: |
           node scripts/refresh-tcgcsv-feed.mjs --mappings backend/tcgcsv-mappings.json --primary pricing --output pricing-v2
           cat pricing-v2/report.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Refresh catalog-scale raw references
+        if: github.event_name != 'pull_request'
+        # A held run (coverage loss) fails this step and keeps the previous pricing-v3 release.
+        run: |
+          node scripts/refresh-pricing-v3.mjs --primary pricing --reviewed backend/tcgcsv-mappings.json --automatic backend/tcgcsv-auto-mappings.json --output pricing-v3
+          node -e 'const r=require("./pricing-v3/report.json");console.log(JSON.stringify({outcome:r.outcome,available:r.available,held:r.held,reviews:r.reviews?.length}))' >> "$GITHUB_STEP_SUMMARY"
       - name: Publish only the small dated price feed
         if: github.event_name != 'pull_request'
         run: |
           git config user.name 'Folio pricing maintenance'
           git config user.email 'pricing@users.noreply.github.com'
           git add pricing/manifest.json pricing/report.json pricing/releases pricing-v2/manifest.json pricing-v2/report.json pricing-v2/tcgcsv-state.json pricing-v2/releases
+          git add -A pricing-v3
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh dated market references'
           # Rebase preserves catalog updates made while source requests were running.

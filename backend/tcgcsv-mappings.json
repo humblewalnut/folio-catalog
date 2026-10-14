@@ -214,5 +214,21 @@
     "printing": "Normal",
     "reviewedAt": "2026-10-14T05:36:09.610541+00:00",
     "evidenceURL": "https://www.tcgplayer.com/product/617516/pokemon-japan-vending-machine-cards-series-3-green-bellsprout"
+  },
+  {
+    "identity": {
+      "cardID": "folio-ja-vending3-dex097",
+      "language": "Japanese",
+      "finish": "Normal"
+    },
+    "categoryID": 85,
+    "groupID": 24208,
+    "groupName": "Vending Machine cards Series 3 (Green)",
+    "productID": 617528,
+    "productName": "Hypno",
+    "number": null,
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:46:59.893302+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/617528/pokemon-japan-vending-machine-cards-series-3-green-hypno"
   }
 ]

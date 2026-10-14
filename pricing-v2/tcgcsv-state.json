@@ -1,0 +1,248 @@
+{
+  "sourceStamp": "2026-10-13T20:06:44.000Z",
+  "fetchedAt": "2026-10-14T05:39:27.432Z",
+  "mappingRevision": "1fcd0bd31b54534a5121966bc6a26eeaf48caeb1ed3ad3514531eab6ad271d99",
+  "held": 0,
+  "entries": [
+    {
+      "identity": {
+        "cardID": "tcgdex-en-sm4-79",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.23",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-bw3-12",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.78",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-sm1-11",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.25",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-svp-213",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "3.36",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-svp-167",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": "Cosmos Holo"
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.69",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-svp-168",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": "Cosmos Holo"
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.75",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-svp-169",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": "Cosmos Holo"
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.82",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-svp-048",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": "Cosmos Holo"
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "2.51",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-2023sv-6",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "10.28",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-neo1-102",
+        "language": "English",
+        "finish": "Normal",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "9.36",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "folio-en-trick2024-037",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": "Cosmos Holo"
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "0.91",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-vending3-dex069",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "21.89",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-13T20:06:44.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    }
+  ]
+}

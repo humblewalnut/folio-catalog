@@ -1,0 +1,218 @@
+[
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sm4-79",
+      "language": "English",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 2071,
+    "groupName": "SM - Crimson Invasion",
+    "productID": 149105,
+    "productName": "Swablu",
+    "number": "79/111",
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:36:09.602160+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/149105/pokemon-sm-crimson-invasion-swablu"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-bw3-12",
+      "language": "English",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 1385,
+    "groupName": "Noble Victories",
+    "productID": 83459,
+    "productName": "Accelgor",
+    "number": "12/101",
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:36:09.603098+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/83459/pokemon-noble-victories-accelgor"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-sm1-11",
+      "language": "English",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 1863,
+    "groupName": "SM Base Set",
+    "productID": 126882,
+    "productName": "Decidueye",
+    "number": "11/149",
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:36:09.604279+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/126882/pokemon-sm-base-set-decidueye"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-213",
+      "language": "English",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 22872,
+    "groupName": "SV: Scarlet & Violet Promo Cards",
+    "productID": 620104,
+    "productName": "Feraligatr - 213 (Illustration Contest 2024)",
+    "number": "213",
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:36:09.605932+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/620104/pokemon-sv-scarlet-and-violet-promo-cards-feraligatr-213-illustration-contest-2024"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-167",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": "Cosmos Holo"
+    },
+    "categoryID": 3,
+    "groupID": 22872,
+    "groupName": "SV: Scarlet & Violet Promo Cards",
+    "productID": 611826,
+    "productName": "Flareon - 167 (Cosmos Holo)",
+    "number": "167",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.606653+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/611826/pokemon-sv-scarlet-and-violet-promo-cards-flareon-167-cosmos-holo"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-168",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": "Cosmos Holo"
+    },
+    "categoryID": 3,
+    "groupID": 22872,
+    "groupName": "SV: Scarlet & Violet Promo Cards",
+    "productID": 611827,
+    "productName": "Vaporeon - 168 (Cosmos Holo)",
+    "number": "168",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.607366+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/611827/pokemon-sv-scarlet-and-violet-promo-cards-vaporeon-168-cosmos-holo"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-169",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": "Cosmos Holo"
+    },
+    "categoryID": 3,
+    "groupID": 22872,
+    "groupName": "SV: Scarlet & Violet Promo Cards",
+    "productID": 653353,
+    "productName": "Jolteon - 169 (Cosmos Holo)",
+    "number": "169",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.608073+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/653353/pokemon-sv-scarlet-and-violet-promo-cards-jolteon-169-cosmos-holo"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-svp-048",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": "Cosmos Holo"
+    },
+    "categoryID": 3,
+    "groupID": 22872,
+    "groupName": "SV: Scarlet & Violet Promo Cards",
+    "productID": 517273,
+    "productName": "Squirtle - 048 (Cosmos Holo)",
+    "number": "048",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.608748+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/517273/pokemon-sv-scarlet-and-violet-promo-cards-squirtle-048-cosmos-holo"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-2023sv-6",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 23306,
+    "groupName": "McDonald's Promos 2023",
+    "productID": 516517,
+    "productName": "Pikachu",
+    "number": "006/015",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.609120+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/516517/pokemon-mcdonalds-promos-2023-pikachu"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-neo1-102",
+      "language": "English",
+      "finish": "Normal",
+      "edition": "1st Edition",
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 1396,
+    "groupName": "Neo Genesis",
+    "productID": 88228,
+    "productName": "Pokemon March",
+    "number": "102/111",
+    "printing": "1st Edition",
+    "reviewedAt": "2026-10-14T05:36:09.609865+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/88228/pokemon-neo-genesis-pokemon-march"
+  },
+  {
+    "identity": {
+      "cardID": "folio-en-trick2024-037",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": "Cosmos Holo"
+    },
+    "categoryID": 3,
+    "groupID": 23561,
+    "groupName": "Trick or Trade BOOster Bundle 2024",
+    "productID": 569227,
+    "productName": "Mimikyu - 037/091 (Cosmos Holo)",
+    "number": "037/091",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-14T05:36:09.610292+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/569227/pokemon-trick-or-trade-booster-bundle-2024-mimikyu-037-091-cosmos-holo"
+  },
+  {
+    "identity": {
+      "cardID": "folio-ja-vending3-dex069",
+      "language": "Japanese",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 85,
+    "groupID": 24208,
+    "groupName": "Vending Machine cards Series 3 (Green)",
+    "productID": 617516,
+    "productName": "Bellsprout",
+    "number": null,
+    "printing": "Normal",
+    "reviewedAt": "2026-10-14T05:36:09.610541+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/617516/pokemon-japan-vending-machine-cards-series-3-green-bellsprout"
+  }
+]

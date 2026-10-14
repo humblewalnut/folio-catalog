@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '43 10 * * *'
   pull_request:
-    paths: ['pricing/**', 'backend/**', 'scripts/*market*.mjs', 'scripts/*cardmarket*.py', '.github/workflows/pricing.yml']
+    paths: ['pricing/**', 'pricing-v2/**', 'scripts/refresh-tcgcsv-feed.mjs', 'backend/**', 'scripts/*market*.mjs', 'scripts/*cardmarket*.py', '.github/workflows/pricing.yml']
 permissions:
   contents: read
 concurrency:
@@ -23,7 +23,7 @@ jobs:
           node-version: '24'
       - name: Test outage handling, printing matches and source dates
         run: |
-          node --test backend/market*.test.mjs
+          node --test backend/market*.test.mjs backend/tcgcsv*.test.mjs
           python3 -m unittest discover -s scripts -p 'test_archive_cardmarket.py' -v
           node --input-type=module -e 'import fs from "node:fs"; import {reviewedMappings} from "./backend/marketplaces.mjs"; reviewedMappings(JSON.parse(fs.readFileSync("backend/marketplace-mappings.json")));'
       - name: Download official bulk guide and refresh reviewed references
@@ -33,12 +33,17 @@ jobs:
           index=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["index"])' "$RUNNER_TEMP/cardmarket/latest.json")
           node scripts/refresh-market-feed.mjs --mappings backend/marketplace-mappings.json --cardmarket-index "$index" --output pricing
           cat pricing/report.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Refresh enhanced raw references within the daily source limit
+        if: github.event_name != 'pull_request'
+        run: |
+          node scripts/refresh-tcgcsv-feed.mjs --mappings backend/tcgcsv-mappings.json --primary pricing --output pricing-v2
+          cat pricing-v2/report.json >> "$GITHUB_STEP_SUMMARY"
       - name: Publish only the small dated price feed
         if: github.event_name != 'pull_request'
         run: |
           git config user.name 'Folio pricing maintenance'
           git config user.email 'pricing@users.noreply.github.com'
-          git add pricing/manifest.json pricing/report.json pricing/releases
+          git add pricing/manifest.json pricing/report.json pricing/releases pricing-v2/manifest.json pricing-v2/report.json pricing-v2/tcgcsv-state.json pricing-v2/releases
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh dated market references'
           # Rebase preserves catalog updates made while source requests were running.

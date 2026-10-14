@@ -5,6 +5,7 @@ No collection exports, ownership, prices or private photos are inputs.
 import argparse, collections, datetime, hashlib, json, re, subprocess, concurrent.futures
 from pathlib import Path
 from artwork_policy import allowed_artwork, apply_artwork
+from finish_corrections import apply_finishes
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT/'inputs' if (ROOT/'inputs').is_dir() else ROOT/'iOS/Folio/DemoCatalog'
 CAT=ROOT/'catalog'
@@ -26,6 +27,7 @@ def merge():
         cards.append(c);known.add(c['id'])
     sets+=sup['sets']
     if (CAT/'reviewed-artwork.json').exists(): apply_artwork(cards, read(CAT/'reviewed-artwork.json'))
+    if (CAT/'reviewed-finish-corrections.json').exists(): apply_finishes(cards, read(CAT/'reviewed-finish-corrections.json'))
     unique(cards,lambda c:c['id'],'card ID');unique(sets,lambda s:s['id'],'set ID')
     unique(sup['mappings'],mappingkey,'mapping');unique(sup['reviews'],lambda r:r['cardID'],'review')
     byset={s['id']:s for s in sets};byid={c['id']:c for c in cards}

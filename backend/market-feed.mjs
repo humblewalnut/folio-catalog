@@ -1,8 +1,8 @@
 import {createHash} from 'node:crypto';
 import {marketIdentity,reviewedMappings} from './marketplaces.mjs';
 
-export function validateFeed(feed,now=Date.now()){
-  if(feed?.schemaVersion!==1||!Array.isArray(feed.entries)||feed.entries.length>10000||!Number.isFinite(Date.parse(feed.generatedAt))||Date.parse(feed.generatedAt)>now)throw new Error('Invalid price feed.');
+export function validateFeed(feed,now=Date.now(),{maxEntries=10000}={}){
+  if(feed?.schemaVersion!==1||!Array.isArray(feed.entries)||feed.entries.length>maxEntries||!Number.isFinite(Date.parse(feed.generatedAt))||Date.parse(feed.generatedAt)>now)throw new Error('Invalid price feed.');
   const seen=new Set();
   for(const entry of feed.entries){
     const i=entry.identity,key=marketIdentity(i??{});

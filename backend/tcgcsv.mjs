@@ -2,9 +2,11 @@
 export const tcgcsvSource='TCGplayer via TCGCSV';
 export const tcgcsvKey=i=>JSON.stringify(['cardID','language','finish','edition','variant'].map(k=>i[k]??null));
 const text=v=>typeof v==='string'&&v.length>0&&v.length<300;
-// Automatic routes come from scripts/match-tcgcsv.mjs: TCGdex's product and TCGplayer's own
-// number, name and printing had to agree. Hand-reviewed routes stay capped at 500.
-export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name'];
+// Automatic routes come from scripts/match-tcgcsv.mjs: TCGdex's product (or, for Japanese
+// official-site printings, a set group proven by its Pokémon) and TCGplayer's own number,
+// name or card kind, and printing had to agree. Hand-reviewed routes stay capped at 500.
+export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name',
+  'official-set+number+species','official-set+number+kind'];
 const routeLanguages=['English','Japanese'],routeFinishes=['Normal','Holo','Reverse holo'];
 /** Expand the tabular backend/tcgcsv-auto-mappings.json into mapping rows. */
 export function automaticRoutes(document){

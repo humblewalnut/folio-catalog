@@ -6,7 +6,7 @@ const text=v=>typeof v==='string'&&v.length>0&&v.length<300;
 // official-site printings, a set group proven by its Pokémon) and TCGplayer's own number,
 // name or card kind, and printing had to agree. Hand-reviewed routes stay capped at 500.
 export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name',
-  'official-set+number+species','official-set+number+kind'];
+  'official-set+number+species','official-set+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name'];
 const routeLanguages=['English','Japanese'],routeFinishes=['Normal','Holo','Reverse holo'];
 /** Expand the tabular backend/tcgcsv-auto-mappings.json into mapping rows. */
 export function automaticRoutes(document){
@@ -20,7 +20,7 @@ export function validateTCGCSVMaps(rows,now=Date.now(),{automatic=false}={}){
   if(!Array.isArray(rows)||rows.length>(automatic?100000:500)||new Set(rows.map(x=>tcgcsvKey(x.identity??{}))).size!==rows.length)throw Error('Invalid TCGCSV mappings');
   if(automatic&&rows.some(m=>!automaticMethods.includes(m.method)))throw Error('Automatic TCGCSV routes need a recorded match method');
   for(const m of rows){const i=m.identity;if(!i||Object.keys(i).some(k=>!['cardID','language','finish','edition','variant'].includes(k))||!text(i.cardID)||i.cardID.startsWith('personal-')||!['English','Japanese'].includes(i.language)||m.categoryID!==(i.language==='Japanese'?85:3)||!['Normal','Holo','Reverse holo'].includes(i.finish)||!Number.isSafeInteger(m.groupID)||m.groupID<=0||!Number.isSafeInteger(m.productID)||m.productID<=0||![m.groupName,m.productName,m.printing].every(text)||m.number!==null&&!text(m.number)||!Number.isFinite(Date.parse(m.reviewedAt))||Date.parse(m.reviewedAt)>now||!m.evidenceURL?.startsWith(`https://www.tcgplayer.com/product/${m.productID}/`))throw Error('Exact reviewed TCGCSV identity required');}
-  for(const m of rows){const i=m.identity;const allowed={Normal:['Normal','1st Edition','Unlimited'],Holo:['Holofoil','1st Edition Holofoil','Unlimited Holofoil'],'Reverse holo':['Reverse Holofoil']};if(!allowed[i.finish].includes(m.printing)||(i.edition==='1st Edition')!==m.printing.startsWith('1st Edition')||(i.edition==='Unlimited')!==m.printing.startsWith('Unlimited')||i.variant!=null&&(i.variant!=='Cosmos Holo'||i.finish!=='Holo'||!m.productName.includes('(Cosmos Holo)')))throw Error('Printing qualifiers do not match');}
+  for(const m of rows){const i=m.identity;const allowed={Normal:['Normal','1st Edition','Unlimited'],Holo:['Holofoil','1st Edition Holofoil','Unlimited Holofoil'],'Reverse holo':['Reverse Holofoil']};const mirror=i.language==='Japanese'&&i.finish==='Reverse holo'&&m.printing==='Holofoil'&&/\((Mirror Holofoil|Mirror Foil)\)$/.test(m.productName);if(!(allowed[i.finish].includes(m.printing)||mirror)||(i.edition==='1st Edition')!==m.printing.startsWith('1st Edition')||(i.edition==='Unlimited')!==m.printing.startsWith('Unlimited')||i.variant!=null&&(i.variant!=='Cosmos Holo'||i.finish!=='Holo'||!m.productName.includes('(Cosmos Holo)')))throw Error('Printing qualifiers do not match');}
   return rows;
 }
 export function tcgcsvEntry(m,products,prices,stamp,now=Date.now()){

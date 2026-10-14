@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "cardID": "tcgdex-en-bw1-65",
+      "number": "65",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/bw1.json",
+        "https://www.tcgplayer.com/product/86541"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-xy9-81",
+      "number": "81",
+      "language": "English",
+      "addedFinish": "Reverse holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/xy9.json",
+        "https://www.tcgplayer.com/product/111617"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-xy9-30",
+      "number": "30",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/xy9.json",
+        "https://www.tcgplayer.com/product/111536"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-sm12-241",
+      "number": "241",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/sm12.json",
+        "https://www.tcgplayer.com/product/201352"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-bw6-22",
+      "number": "22",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/bw6.json",
+        "https://www.tcgplayer.com/product/86130"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-xy3-63",
+      "number": "63",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/xy3.json"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-sm115-68",
+      "number": "68",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/sm115.json",
+        "https://www.tcgplayer.com/product/197732"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-bw4-55",
+      "number": "55",
+      "language": "English",
+      "addedFinish": "Reverse holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/bw4.json",
+        "https://www.tcgplayer.com/product/88564"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-smp-SM54",
+      "number": "SM54",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/smp.json",
+        "https://www.tcgplayer.com/product/153452"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-sm9-99",
+      "number": "99",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/sm9.json",
+        "https://www.tcgplayer.com/product/183881"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-sm11-202",
+      "number": "202",
+      "language": "English",
+      "addedFinish": "Reverse holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/sm11.json",
+        "https://www.tcgplayer.com/product/195257"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-xy1-41",
+      "number": "41",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/xy1.json"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    },
+    {
+      "cardID": "tcgdex-en-xyp-XY121",
+      "number": "XY121",
+      "language": "English",
+      "addedFinish": "Holo",
+      "reviewedAt": "2026-10-14",
+      "evidence": [
+        "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master/cards/en/xyp.json",
+        "https://www.tcgplayer.com/product/117267"
+      ],
+      "note": "Confirms this finish exists for the exact set and number. Other existing finishes retained; this is not an exhaustive variant review or pricing approval."
+    }
+  ]
+}

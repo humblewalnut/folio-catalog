@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "cardID": "tcgdex-en-svp-044",
+      "provider": "TCGplayer",
+      "rejectedProductID": 477182,
+      "candidateReplacementID": 512035,
+      "status": "replacement_requires_route_validation",
+      "reason": "477182 identifies Charmander #002. Exact #044 candidate is 512035; no pricing adapter or USD value is activated by this correction.",
+      "evidence": [
+        "https://www.tcgplayer.com/product/477182",
+        "https://www.tcgplayer.com/product/512035"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  ]
+}

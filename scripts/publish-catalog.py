@@ -16,6 +16,17 @@ def unique(items,key,label):
     ids=[key(i) for i in items]
     if len(set(ids)) != len(ids): raise ValueError('Duplicate '+label)
 def mappingkey(m): return tuple(m[k].strip().lower() for k in ['sourceSet','sourceName','sourceNumber'])
+def apply_printings(cards, document):
+    """Import facts from scripts/printing-evidence.mjs. A fact the refreshed catalog no longer supports is
+    dropped, which only returns that printing to asking the collector."""
+    if document.get('schemaVersion') != 1: raise ValueError('Unsupported printing evidence schema')
+    byid={c['id']:c for c in cards}
+    for finish,ids in document['confirmedFinish'].items():
+        for cid in ids:
+            c=byid.get(cid)
+            if c is not None and (c.get('availableFinishes') or [c['finish']]) == [finish]: c['confirmedFinish']=finish
+    for cid in document['dualEdition']:
+        if cid in byid: byid[cid]['availableEditions']=['1st Edition','Unlimited']
 def merge():
     sup=read(CAT/'reviewed-supplements.json')
     cards=read(DEST/'catalog.json')+read(DEST/'extended-catalog.json')
@@ -28,6 +39,7 @@ def merge():
     sets+=sup['sets']
     if (CAT/'reviewed-artwork.json').exists(): apply_artwork(cards, read(CAT/'reviewed-artwork.json'))
     if (CAT/'reviewed-finish-corrections.json').exists(): apply_finishes(cards, read(CAT/'reviewed-finish-corrections.json'))
+    if (CAT/'reviewed-printings.json').exists(): apply_printings(cards, read(CAT/'reviewed-printings.json'))
     unique(cards,lambda c:c['id'],'card ID');unique(sets,lambda s:s['id'],'set ID')
     unique(sup['mappings'],mappingkey,'mapping');unique(sup['reviews'],lambda r:r['cardID'],'review')
     byset={s['id']:s for s in sets};byid={c['id']:c for c in cards}

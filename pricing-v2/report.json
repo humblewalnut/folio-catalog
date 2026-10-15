@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-14T10:50:21.459Z",
-  "outcome": "cached",
-  "requests": 0,
+  "checkedAt": "2026-10-15T10:50:40.462Z",
+  "outcome": "updated",
+  "requests": 20,
   "reviewed": 13,
   "available": 13,
   "held": 0,
-  "sourceStamp": "2026-10-13T20:06:44.000Z"
+  "sourceStamp": "2026-10-14T20:05:55.000Z"
 }

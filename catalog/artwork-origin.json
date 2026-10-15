@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "origin": null,
+  "note": "HTTPS origin of Folio's public, content-addressed artwork bucket (/cards/<sha256>/<high|thumb>.<jpg|png|webp>). Null until a domain and artwork-only bucket exist. Ship an app build carrying this origin before publishing any catalog that references it."
+}

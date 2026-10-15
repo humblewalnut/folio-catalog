@@ -248,5 +248,23 @@
     "printing": "Normal",
     "reviewedAt": "2026-10-15T13:44:31.923937+00:00",
     "evidenceURL": "https://www.tcgplayer.com/product/617539/pokemon-japan-vending-machine-cards-series-3-green-mewtwo"
+  },
+  {
+    "identity": {
+      "cardID": "folio-ja-S-P-208",
+      "language": "Japanese",
+      "finish": "Holo",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 85,
+    "groupID": 23876,
+    "groupName": "S-P: Sword & Shield Promos",
+    "productID": 597392,
+    "productName": "Pikachu - 208/S-P",
+    "number": "208/S-P",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-15T15:14:18.127173+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/597392/pokemon-japan-s-p-sword-and-shield-promos-pikachu-208-s-p"
   }
 ]

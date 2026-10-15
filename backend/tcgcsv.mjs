@@ -8,7 +8,7 @@ const text=v=>typeof v==='string'&&v.length>0&&v.length<300;
 // instead on species, HP, stage and type (or, for Trainers and Energy, a reviewed English name)
 // within a reviewed set. Hand-reviewed routes stay capped at 500.
 export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name',
-  'official-set+number+species','official-set+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name',
+  'official-set+number+species','official-set+number+kind','official-set-code+number+species','official-set-code+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name',
   'vintage-set+species+hp+stage+type','vintage-set+reviewed-name'];
 const routeLanguages=['English','Japanese'],routeFinishes=['Normal','Holo','Reverse holo'];
 /** Expand the tabular backend/tcgcsv-auto-mappings.json into mapping rows. */

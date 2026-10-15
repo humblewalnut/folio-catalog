@@ -27,6 +27,9 @@ def apply_printings(cards, document):
             if c is not None and (c.get('availableFinishes') or [c['finish']]) == [finish]: c['confirmedFinish']=finish
     for cid in document['dualEdition']:
         if cid in byid: byid[cid]['availableEditions']=['1st Edition','Unlimited']
+    for cid in document.get('firstEditionOnly',[]):
+        c=byid.get(cid)
+        if c is not None and 'availableEditions' not in c: c['onlyEdition']='1st Edition'
 def merge():
     sup=read(CAT/'reviewed-supplements.json')
     cards=read(DEST/'catalog.json')+read(DEST/'extended-catalog.json')

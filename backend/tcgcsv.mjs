@@ -5,10 +5,11 @@ const text=v=>typeof v==='string'&&v.length>0&&v.length<300;
 // Automatic routes come from scripts/match-tcgcsv.mjs: TCGdex's product (or, for Japanese
 // official-site printings, a set group proven by its Pokémon) and TCGplayer's own number,
 // name or card kind, and printing had to agree. Unnumbered vintage Japanese products agree
-// instead on species, HP, stage and type within a reviewed set. Hand-reviewed routes stay capped at 500.
+// instead on species, HP, stage and type (or, for Trainers and Energy, a reviewed English name)
+// within a reviewed set. Hand-reviewed routes stay capped at 500.
 export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name',
   'official-set+number+species','official-set+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name',
-  'vintage-set+species+hp+stage+type'];
+  'vintage-set+species+hp+stage+type','vintage-set+reviewed-name'];
 const routeLanguages=['English','Japanese'],routeFinishes=['Normal','Holo','Reverse holo'];
 /** Expand the tabular backend/tcgcsv-auto-mappings.json into mapping rows. */
 export function automaticRoutes(document){
@@ -38,5 +39,8 @@ export function tcgcsvEntry(m,products,prices,stamp,now=Date.now()){
   if(candidates.length>1)return empty('ambiguous');const amount=candidates[0]?.marketPrice;
   if(amount===null||amount===undefined||amount===0)return empty('unavailable');
   if(typeof amount!=='number'||!Number.isFinite(amount)||amount<=0||amount>1e9)throw Error('Invalid TCGCSV price');
-  return {identity:m.identity,status:'available',references:[{amount:String(amount),currency:'USD',source:tcgcsvSource,observedAt:new Date(at).toISOString(),meaning:'Raw market reference · condition not specified',status:now-at>86400000?'older':'current'}]};
+  const meaning=['Raw market reference · condition not specified',printingNotes[m.groupID]].filter(Boolean).join(' · ');
+  return {identity:m.identity,status:'available',references:[{amount:String(amount),currency:'USD',source:tcgcsvSource,observedAt:new Date(at).toISOString(),meaning,status:now-at>86400000?'older':'current'}]};
 }
+// Groups whose catalog record also stands for a printing TCGplayer prices separately.
+const printingNotes={23721:'regular printing, not the "No Rarity" first print'};

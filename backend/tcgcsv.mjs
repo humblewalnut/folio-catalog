@@ -4,9 +4,11 @@ export const tcgcsvKey=i=>JSON.stringify(['cardID','language','finish','edition'
 const text=v=>typeof v==='string'&&v.length>0&&v.length<300;
 // Automatic routes come from scripts/match-tcgcsv.mjs: TCGdex's product (or, for Japanese
 // official-site printings, a set group proven by its Pokémon) and TCGplayer's own number,
-// name or card kind, and printing had to agree. Hand-reviewed routes stay capped at 500.
+// name or card kind, and printing had to agree. Unnumbered vintage Japanese products agree
+// instead on species, HP, stage and type within a reviewed set. Hand-reviewed routes stay capped at 500.
 export const automaticMethods=['tcgdex-crosswalk+number+name','tcgdex-crosswalk+number','set-crosswalk+number+name',
-  'official-set+number+species','official-set+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name'];
+  'official-set+number+species','official-set+number+kind','tcgdex-set-agreement+number+species','tcgdex-set-agreement+number+kind','tcgdex-set-agreement+number+name','mirror-product+number+name',
+  'vintage-set+species+hp+stage+type'];
 const routeLanguages=['English','Japanese'],routeFinishes=['Normal','Holo','Reverse holo'];
 /** Expand the tabular backend/tcgcsv-auto-mappings.json into mapping rows. */
 export function automaticRoutes(document){

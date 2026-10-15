@@ -30,6 +30,10 @@ def apply_printings(cards, document):
     for cid in document.get('firstEditionOnly',[]):
         c=byid.get(cid)
         if c is not None and 'availableEditions' not in c: c['onlyEdition']='1st Edition'
+    # Older apps accept only the two-edition list, so the Shadowless print rides in its own field.
+    for cid in document.get('shadowless',[]):
+        c=byid.get(cid)
+        if c is not None and 'availableEditions' in c: c['editionChoices']=['1st Edition','Shadowless','Unlimited']
 def merge():
     sup=read(CAT/'reviewed-supplements.json')
     cards=read(DEST/'catalog.json')+read(DEST/'extended-catalog.json')

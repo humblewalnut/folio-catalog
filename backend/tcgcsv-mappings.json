@@ -266,5 +266,23 @@
     "printing": "Holofoil",
     "reviewedAt": "2026-10-15T15:14:18.127173+00:00",
     "evidenceURL": "https://www.tcgplayer.com/product/597392/pokemon-japan-s-p-sword-and-shield-promos-pikachu-208-s-p"
+  },
+  {
+    "identity": {
+      "cardID": "folio-ja-vending3-dex064-tanaka",
+      "language": "Japanese",
+      "finish": "Normal",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 85,
+    "groupID": 24208,
+    "groupName": "Vending Machine cards Series 3 (Green)",
+    "productID": 617533,
+    "productName": "Kadabra (Miki Tanaka)",
+    "number": null,
+    "printing": "Normal",
+    "reviewedAt": "2026-10-16T02:21:21.620464+00:00",
+    "evidenceURL": "https://www.tcgplayer.com/product/617533/pokemon-japan-vending-machine-cards-series-3-green-kadabra-miki-tanaka"
   }
 ]

@@ -26,7 +26,7 @@ test('pricing-v3 publishes automatic routes, holds large moves, guards coverage 
     const prices=price=>write(join(archive,'1-prices.json'),{success:true,results:ids.map(i=>({productId:1000+i,subTypeName:'Normal',marketPrice:price(i)}))});
     const build=n=>writeFileSync(join(archive,'last-updated.txt'),stamp(n));
     const preload=join(root,'offline.mjs');writeFileSync(preload,"globalThis.fetch=async()=>{throw Error('offline');};");
-    const run=(archived=true,status=0)=>{const r=spawnSync(process.execPath,['--import',preload,script.pathname,'--primary',primary,'--reviewed',reviewed,'--automatic',automatic,'--output',output,...(archived?['--archive',archive]:[])],{encoding:'utf8'});assert.equal(r.status,status,r.stderr);return JSON.parse(r.stdout.trim().split('\n').pop());};
+    const run=(archived=true,status=0,loader=preload)=>{const r=spawnSync(process.execPath,['--import',loader,script.pathname,'--primary',primary,'--reviewed',reviewed,'--automatic',automatic,'--output',output,...(archived?['--archive',archive]:[])],{encoding:'utf8'});assert.equal(r.status,status,r.stderr);return JSON.parse(r.stdout.trim().split('\n').pop());};
     const feed=()=>{const m=JSON.parse(readFileSync(join(output,'manifest.json')));return expandCompactFeed(JSON.parse(readFileSync(join(output,'releases',m.sha256+'.json'))));};
     const amount=id=>feed().entries.find(e=>e.identity.cardID===`tcgdex-en-set-${id}`)?.references[0]?.amount;
 
@@ -51,5 +51,11 @@ test('pricing-v3 publishes automatic routes, holds large moves, guards coverage 
     const withdrawn=feed().entries.find(e=>e.identity.cardID==='tcgdex-en-set-5');
     assert.equal(withdrawn.status,'unsupported');assert.equal(withdrawn.references.length,0);
     assert.ok(readdirSync(join(output,'releases')).length<=2);
+    // UTC-day cadence does not skip the next run if the prior job finished late.
+    const yesterday=new Date();yesterday.setUTCDate(yesterday.getUTCDate()-1);yesterday.setUTCHours(23,59,59,0);
+    write(join(output,'state.json'),{...JSON.parse(readFileSync(join(output,'state.json'))),fetchedAt:yesterday.toISOString()});
+    const online=join(root,'source.mjs');writeFileSync(online,`import fs from 'node:fs';const root=${JSON.stringify(archive)};globalThis.fetch=async u=>{const path=new URL(u).pathname;const file=path==='/last-updated.txt'?'last-updated.txt':path.endsWith('/groups')?'groups.json':'1-'+path.split('/').at(-1)+'.json';return new Response(fs.readFileSync(root+'/'+file));};`);
+    build(1);const refreshed=run(false,0,online);assert.notEqual(refreshed.outcome,'cached');assert.equal(refreshed.available,59);
+
   }finally{rmSync(root,{recursive:true,force:true});}
 });

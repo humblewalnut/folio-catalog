@@ -44,7 +44,7 @@ const finish=(outcome,extra={})=>{
 };
 
 // TCGCSV builds once a day; reread only for a newer build, and only route changes on a new build.
-const recent=state&&Date.now()-Date.parse(state.fetchedAt)<86400000;
+const recent=state&&Number.isFinite(Date.parse(state.fetchedAt))&&new Date(state.fetchedAt).toISOString().slice(0,10)===new Date().toISOString().slice(0,10);
 if(!archive&&recent&&previous){finish(state.mappingRevision===revision?'cached':'routes_wait_for_next_daily_build');process.exit(0);}
 let stamp;
 try{stamp=new Date((archive?readFileSync(join(archive,'last-updated.txt'),'utf8'):await fetchText('https://tcgcsv.com/last-updated.txt')).trim()).toISOString();}

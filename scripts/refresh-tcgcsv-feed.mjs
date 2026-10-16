@@ -17,13 +17,21 @@ let entries=[],newState=state,requests=0,outcome='cached';
 const archive=args['--archive']?resolve(args['--archive']):null;
 const fetchText=async url=>{requests++;const response=await fetch(url,{headers:{'User-Agent':'Folio-Pricing/1.0'},redirect:'error',signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('TCGCSV unavailable');const length=Number(response.headers.get('content-length'));if(length>6000000)throw Error('Oversized response');let n=0,chunks=[];for await(const chunk of response.body){n+=chunk.length;if(n>6000000)throw Error('Oversized response');chunks.push(chunk);}await new Promise(r=>setTimeout(r,150));return Buffer.concat(chunks).toString();};
 try{
- const recent=state&&Date.now()-Date.parse(state.fetchedAt)<86400000;
- if(!archive&&recent){if(state.mappingRevision!==revision)throw Error('New mappings require cached evidence or next daily sync');entries=state.entries;}
+ // Schedules drift by minutes. A rolling 24-hour cache skips the next daily
+ // run when yesterday finished later, even though today's source is available.
+ const recent=state&&Number.isFinite(Date.parse(state.fetchedAt))&&new Date(state.fetchedAt).toISOString().slice(0,10)===new Date().toISOString().slice(0,10);
+ const deferRoutes=()=>{
+  if(!previous)throw Error('No prior enhanced publication to retain');
+  const report={checkedAt:new Date().toISOString(),outcome:'routes_wait_for_next_daily_build',requests,reviewed:maps.length,available:state.entries.filter(e=>e.references.length).length,held:state.held??0,sourceStamp:state.sourceStamp};
+  writeFileSync(join(output,'report.json'),JSON.stringify(report,null,2)+'\n');
+  console.log(JSON.stringify(report));process.exit(0);
+ };
+ if(!archive&&recent){if(state.mappingRevision!==revision)deferRoutes();entries=state.entries;}
  else{
   const rawStamp=archive?readFileSync(join(archive,'last-updated.txt'),'utf8'):await fetchText('https://tcgcsv.com/last-updated.txt');const stamp=new Date(rawStamp.trim()).toISOString();
   if(state&&Date.parse(stamp)<Date.parse(state.sourceStamp))throw Error('Source timestamp regressed');
   if(Date.parse(stamp)>Date.now()||Date.now()-Date.parse(stamp)>7*86400000)throw Error('Invalid source timestamp');
-  if(!archive&&state?.sourceStamp===stamp){if(state.mappingRevision!==revision)throw Error('New mappings require archived evidence');entries=state.entries;newState={...state,fetchedAt:new Date().toISOString()};}
+  if(!archive&&state?.sourceStamp===stamp){if(state.mappingRevision!==revision)deferRoutes();entries=state.entries;newState={...state,fetchedAt:new Date().toISOString()};}
   else{
    const categories=new Map(),groups=new Map();
    for(const c of new Set(maps.map(m=>m.categoryID))){const name=c===3?'groups.json':'japanese-groups.json';const data=archive?read(join(archive,name)):JSON.parse(await fetchText(`https://tcgcsv.com/tcgplayer/${c}/groups`));if(!data.success||!Array.isArray(data.results))throw Error('Invalid category');categories.set(c,data.results);}

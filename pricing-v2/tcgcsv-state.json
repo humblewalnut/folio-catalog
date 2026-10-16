@@ -1,7 +1,7 @@
 {
-  "sourceStamp": "2026-10-14T20:05:55.000Z",
-  "fetchedAt": "2026-10-15T10:50:40.461Z",
-  "mappingRevision": "7b1e8eea3a9517e9b6c1c3416e56de1a682297264de95a87b8d341db3cede44b",
+  "sourceStamp": "2026-10-15T20:06:01.000Z",
+  "fetchedAt": "2026-10-16T14:00:40.093Z",
+  "mappingRevision": "4542c90e648591eb5a79fe8e7feb57b601a02fa216b4ec721422921351f23a45",
   "held": 0,
   "reviews": [],
   "entries": [
@@ -19,7 +19,7 @@
           "amount": "0.23",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -36,10 +36,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.78",
+          "amount": "0.79",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -59,7 +59,7 @@
           "amount": "0.28",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -76,10 +76,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "3.45",
+          "amount": "3.43",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -96,10 +96,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.66",
+          "amount": "0.77",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -116,10 +116,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.62",
+          "amount": "0.66",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -136,10 +136,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.7",
+          "amount": "0.77",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -156,10 +156,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "2.46",
+          "amount": "2.55",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -176,10 +176,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "9.36",
+          "amount": "9.62",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -196,10 +196,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "9.35",
+          "amount": "9.2",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -216,10 +216,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.86",
+          "amount": "0.94",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -236,10 +236,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "21.89",
+          "amount": "21.96",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -257,11 +257,62 @@
           "amount": "38.75",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-14T20:05:55.000Z",
+          "observedAt": "2026-10-15T20:06:01.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
       ]
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-vending3-dex150",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "179.99",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-15T20:06:01.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-S-P-208",
+        "language": "Japanese",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "status": "available",
+      "references": [
+        {
+          "amount": "157.11",
+          "currency": "USD",
+          "source": "TCGplayer via TCGCSV",
+          "observedAt": "2026-10-15T20:06:01.000Z",
+          "meaning": "Raw market reference · condition not specified",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-vending3-dex064-tanaka",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "status": "unavailable",
+      "references": []
     }
   ]
 }

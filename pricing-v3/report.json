@@ -1,13 +1,650 @@
 {
-  "checkedAt": "2026-10-15T10:53:19.678Z",
-  "outcome": "updated",
-  "requests": 992,
-  "routes": 50403,
-  "reviewed": 13,
-  "automatic": 50390,
-  "sourceStamp": "2026-10-14T20:05:55.000Z",
-  "available": 46534,
-  "held": 0,
-  "bytes": 2867548,
-  "reviews": []
+  "checkedAt": "2026-10-16T14:03:18.516Z",
+  "outcome": "needs_review",
+  "requests": 994,
+  "routes": 50672,
+  "reviewed": 16,
+  "automatic": 50656,
+  "sourceStamp": "2026-10-15T20:06:01.000Z",
+  "available": 46761,
+  "held": 53,
+  "bytes": 2889067,
+  "reviews": [
+    {
+      "identity": {
+        "cardID": "tcgdex-en-neo1-35",
+        "language": "English",
+        "finish": "Normal",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "10.33",
+      "candidate": "6.66"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-19134",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "7.37",
+      "candidate": "9.99"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-25671",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1",
+      "candidate": "3.25"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-28551",
+        "language": "Japanese",
+        "finish": "Holo",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "4.5",
+      "candidate": "10"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-30016",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.99",
+      "candidate": "0.5"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-30810",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "600",
+      "candidate": "299.99"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-30285",
+        "language": "Japanese",
+        "finish": "Holo",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2",
+      "candidate": "4.5"
+    },
+    {
+      "identity": {
+        "cardID": "folio-ja-official-33305",
+        "language": "Japanese",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.42",
+      "candidate": "3.99"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-bw10-20",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "4.17",
+      "candidate": "1.81"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-col1-16",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.31",
+      "candidate": "6.74"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-col1-8",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "4.86",
+      "candidate": "7.39"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-dp6-12",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "33.46",
+      "candidate": "48.91"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard2-106",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "199.99",
+      "candidate": "86.66"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard2-149",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "500",
+      "candidate": "2000"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard2-71",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "30",
+      "candidate": "16.28"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard2-81",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "99.99",
+      "candidate": "32.44"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard2-91",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "99.99",
+      "candidate": "55.55"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard3-105",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "30",
+      "candidate": "129.99"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ecard3-23",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "55.95",
+      "candidate": "124"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ex10-103",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "158.32",
+      "candidate": "224.99"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ex10-117",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "370",
+      "candidate": "999.99"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ex10-76",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "17.07",
+      "candidate": "24.41"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ex14-4",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "939.5",
+      "candidate": "564.76"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-ex15-98",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "728.3",
+      "candidate": "445"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-gym2-20",
+        "language": "English",
+        "finish": "Holo",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "129.97",
+      "candidate": "186.64"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-gym2-3",
+        "language": "English",
+        "finish": "Holo",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "162.5",
+      "candidate": "260.5"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss1-4",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "60.83",
+      "candidate": "192.78"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-19",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "3.38",
+      "candidate": "9.34"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-29",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "3.72",
+      "candidate": "7.37"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-39",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "5.07",
+      "candidate": "11.3"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-42",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1.82",
+      "candidate": "7.45"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-45",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "3.1",
+      "candidate": "5.1"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-51",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "9.84",
+      "candidate": "13.29"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-57",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1.09",
+      "candidate": "3.39"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-60",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "4.43",
+      "candidate": "6.28"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss3-9",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "18.2",
+      "candidate": "29.88"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-41",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "11.48",
+      "candidate": "24.31"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-59",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1.62",
+      "candidate": "3.63"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-64",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.88",
+      "candidate": "3.9"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-67",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.79",
+      "candidate": "6.19"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-72",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "6.9",
+      "candidate": "9.91"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-81",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1.18",
+      "candidate": "10.78"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-9",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "3.75",
+      "candidate": "5.29"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-hgss4-9",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1.73",
+      "candidate": "3.8"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-lc-53",
+        "language": "English",
+        "finish": "Reverse holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "79.99",
+      "candidate": "183.76"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-pop1-16",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "23.94",
+      "candidate": "40.12"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-pop5-12",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "313.23",
+      "candidate": "434.85"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-sm8-227",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "240.16",
+      "candidate": "370.07"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-tk-xy-w-25",
+        "language": "English",
+        "finish": "Normal",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "18.5",
+      "candidate": "30"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-en-xy2-108",
+        "language": "English",
+        "finish": "Holo",
+        "edition": null,
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "1501.23",
+      "candidate": "802.12"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-ja-PCG4-085",
+        "language": "Japanese",
+        "finish": "Holo",
+        "edition": "Unlimited",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "18",
+      "candidate": "25"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-ja-PCG7-001",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": "Unlimited",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "2.5",
+      "candidate": "5"
+    },
+    {
+      "identity": {
+        "cardID": "tcgdex-ja-VS1-008",
+        "language": "Japanese",
+        "finish": "Normal",
+        "edition": "1st Edition",
+        "variant": null
+      },
+      "reason": "movement_over_35_percent",
+      "previous": "64.99",
+      "candidate": "37.93"
+    }
+  ]
 }

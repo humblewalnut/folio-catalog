@@ -19,6 +19,13 @@ class ChineseChasePublicationTests(unittest.TestCase):
    self.assertEqual(p['artworkTier'],'thumb' if r['cardID'] in previews else 'high')
    self.assertIn('/'+p['artworkTier']+'.',p['imageURL'])
   self.assertIn('images.pikaqian.com',self.artwork['folio-zh-cn-CSV5C-155']['evidence'][0])
+ def test_remaining_nine_previews_match_published_hashes_and_printings(self):
+  batch=json.loads((ROOT/'catalog/chinese-chase-artwork-completion-2026-10-16.json').read_text())
+  self.assertEqual(len(batch['records']),9)
+  for p in batch['records']:
+   c=self.cards[p['cardID']]
+   self.assertEqual(c['imageURL'],p['imageURL']);self.assertEqual(p['artworkTier'],'thumb');self.assertEqual(p['nativeSize'],'300x419')
+   self.assertEqual(p['imageURL'].split('/')[-2],p['sha256']);self.assertTrue(p['identityReview']);self.assertTrue(p['evidence'])
  def test_four_partial_sets_and_exact_artist_type_metadata(self):
   for code in ['CS4aC','CSV9.5C','CSV8C','CSV5C']:self.assertEqual(self.sets['folio-zh-cn-'+code]['total'],0)
   self.assertEqual(self.cards['folio-zh-cn-CS4aC-085']['number'],'085');self.assertEqual(self.cards['folio-zh-cn-CS4aC-085']['rarity'],'RRR')

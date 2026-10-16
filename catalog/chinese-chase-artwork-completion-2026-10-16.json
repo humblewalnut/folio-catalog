@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "batchID": "zh-chase-completion-2026-10-16",
+  "reviewedAt": "2026-10-16",
+  "quality": "Nine clean native 300x419 PNG previews, individually visually matched to exact Chinese card faces. No upscaling. Image presence is not high-resolution completion.",
+  "records": [
+    {
+      "cardID": "folio-zh-cn-CBB2C-0615",
+      "imageURL": "https://art.foliocollect.com/cards/abe4f272d7a56787b0db2357b3e74d7c5fe61e954d3f04815b57ef2094722ba9/thumb.png",
+      "sha256": "abe4f272d7a56787b0db2357b3e74d7c5fe61e954d3f04815b57ef2094722ba9",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/264/85.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0115",
+      "imageURL": "https://art.foliocollect.com/cards/8114b39c6705764d8c92d8d2736ec1875edd0eab87a71b9136d63c3c7ae4df84/thumb.png",
+      "sha256": "8114b39c6705764d8c92d8d2736ec1875edd0eab87a71b9136d63c3c7ae4df84",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/264/14.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0715",
+      "imageURL": "https://art.foliocollect.com/cards/aaef1f6cf11f6053973f8d36365123c193f4bd869472d538be6a23b8be3e1c83/thumb.png",
+      "sha256": "aaef1f6cf11f6053973f8d36365123c193f4bd869472d538be6a23b8be3e1c83",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/264/100.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0915",
+      "imageURL": "https://art.foliocollect.com/cards/e6625d5ec128a73da90c22d13b334d4e117a6e91e2bb2d7319a111444b9c3a43/thumb.png",
+      "sha256": "e6625d5ec128a73da90c22d13b334d4e117a6e91e2bb2d7319a111444b9c3a43",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/264/129.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB3C-0307",
+      "imageURL": "https://art.foliocollect.com/cards/9875bbe44ba1b905c51cf19412dbefd979607587eb449b75d0629a4561dbc3b3/thumb.png",
+      "sha256": "9875bbe44ba1b905c51cf19412dbefd979607587eb449b75d0629a4561dbc3b3",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/302/20.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-151C-172",
+      "imageURL": "https://art.foliocollect.com/cards/06dc476e120d65860e8e606b755c73f35dba6e022c03dfc1781bc426d0ab14ac/thumb.png",
+      "sha256": "06dc476e120d65860e8e606b755c73f35dba6e022c03dfc1781bc426d0ab14ac",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/279/447.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-151C-171",
+      "imageURL": "https://art.foliocollect.com/cards/3c16e5cb67b626dcd58fbaa1c72d2f19310a408129532c7c911b9e0e45563d0b/thumb.png",
+      "sha256": "3c16e5cb67b626dcd58fbaa1c72d2f19310a408129532c7c911b9e0e45563d0b",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/256/447.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-151C-170",
+      "imageURL": "https://art.foliocollect.com/cards/ef9d6ba47dbba3bc3d30581d832ed5836b9e0a5ee8f9bcb52aee155096334a2a/thumb.png",
+      "sha256": "ef9d6ba47dbba3bc3d30581d832ed5836b9e0a5ee8f9bcb52aee155096334a2a",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/247/447.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    },
+    {
+      "cardID": "folio-zh-cn-151C-173",
+      "imageURL": "https://art.foliocollect.com/cards/903001a02b3bb8b271fc6d0c29418d86e3f4ed90722aa830d0e51b35343ff2f3/thumb.png",
+      "sha256": "903001a02b3bb8b271fc6d0c29418d86e3f4ed90722aa830d0e51b35343ff2f3",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://raw.githubusercontent.com/duanxr/PTCG-CHS-Datasets/ea69b4e3916a717ffe0c0116984c99d3e4a3cb8c/img/280/447.png"
+      ],
+      "identityReview": "Unique mainland product/subproduct, complete compound collector number, normalized printed name and known illustrator correlated. No card identity changed. Individual visual review 2026-10-16: Simplified Chinese face, printed number and set code match the target; image is clean and complete."
+    }
+  ]
+}

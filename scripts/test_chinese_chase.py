@@ -20,3 +20,7 @@ class ChineseChasePublicationTests(unittest.TestCase):
  def test_captain_pikachu_has_target_specific_evidence_not_the_wrong_number(self):
   r=next(r for r in self.release['reviews'] if r['cardID']=='folio-zh-cn-CBB1C-0709')
   self.assertFalse(any('71db1208' in u for u in r['evidence']));self.assertTrue(any('captain-pikachu-709' in u for u in r['evidence']))
+
+ def test_publisher_rejects_duplicate_set_expectations(self):
+  expectation={'set':{'id':'same-set'}}
+  with self.assertRaises(ValueError):publisher.unique([expectation,expectation],lambda e:e['set']['id'],'set expectation')

@@ -49,6 +49,7 @@ def merge():
     if (CAT/'reviewed-printings.json').exists(): apply_printings(cards, read(CAT/'reviewed-printings.json'))
     unique(cards,lambda c:c['id'],'card ID');unique(sets,lambda s:s['id'],'set ID')
     unique(sup['mappings'],mappingkey,'mapping');unique(sup['reviews'],lambda r:r['cardID'],'review')
+    unique(sup['expectations'],lambda e:e['set']['id'],'set expectation')
     byset={s['id']:s for s in sets};byid={c['id']:c for c in cards}
     for c in cards:
         if c['language'] not in LANGS or c['id'].startswith('personal-') or c['setID'] not in byset or byset[c['setID']].get('language','English') != c['language']:raise ValueError('Invalid regional identity: '+c['id'])

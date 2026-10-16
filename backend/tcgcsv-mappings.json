@@ -266,5 +266,41 @@
     "printing": "Holofoil",
     "reviewedAt": "2026-10-15T15:14:18.127173+00:00",
     "evidenceURL": "https://www.tcgplayer.com/product/597392/pokemon-japan-s-p-sword-and-shield-promos-pikachu-208-s-p"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-cel25cc-CC020",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 2931,
+    "groupName": "Celebrations: Classic Collection",
+    "productID": 250337,
+    "productName": "Reshiram",
+    "number": "113/114",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-16T00:22:19.190Z",
+    "evidenceURL": "https://www.tcgplayer.com/product/250337/pokemon-celebrations-classic-collection-reshiram"
+  },
+  {
+    "identity": {
+      "cardID": "tcgdex-en-cel25cc-CC021",
+      "language": "English",
+      "finish": "Holo",
+      "edition": null,
+      "variant": null
+    },
+    "categoryID": 3,
+    "groupID": 2931,
+    "groupName": "Celebrations: Classic Collection",
+    "productID": 250338,
+    "productName": "Zekrom",
+    "number": "114/114",
+    "printing": "Holofoil",
+    "reviewedAt": "2026-10-16T00:22:19.190Z",
+    "evidenceURL": "https://www.tcgplayer.com/product/250338/pokemon-celebrations-classic-collection-zekrom"
   }
 ]

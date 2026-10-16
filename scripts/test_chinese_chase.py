@@ -6,11 +6,19 @@ publisher=importlib.util.module_from_spec(spec);spec.loader.exec_module(publishe
 class ChineseChasePublicationTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.release=publisher.merge();cls.cards={x['id']:x for x in cls.release['cards']};cls.sets={x['id']:x for x in cls.release['sets']};cls.records=json.loads((ROOT/'catalog/chinese-chase-review-2026-10-16.json').read_text())['records']
+  cls.release=publisher.merge();cls.cards={x['id']:x for x in cls.release['cards']};cls.sets={x['id']:x for x in cls.release['sets']};cls.artwork={r['cardID']:r for r in json.loads((ROOT/'catalog/reviewed-artwork.json').read_text())['records']};cls.records=json.loads((ROOT/'catalog/chinese-chase-review-2026-10-16.json').read_text())['records']
  def test_all_seven_exact_printings_retain_the_reviewed_finish(self):
   self.assertEqual(len(self.records),7)
   for r in self.records:
-   c=self.cards[r['cardID']];self.assertEqual(c['number'],r['number']);self.assertEqual(c['language'],'Simplified Chinese');self.assertEqual(c['availableFinishes'],['Holo']);self.assertEqual(c['finish'],'Holo');self.assertEqual(c['confirmedFinish'],'Holo');self.assertFalse(c.get('imageURL'))
+   c=self.cards[r['cardID']];self.assertEqual(c['number'],r['number']);self.assertEqual(c['language'],'Simplified Chinese');self.assertEqual(c['availableFinishes'],['Holo']);self.assertEqual(c['finish'],'Holo');self.assertEqual(c['confirmedFinish'],'Holo');self.assertTrue(c['imageURL'].startswith('https://art.foliocollect.com/cards/'));self.assertEqual(c['imageURL'].split('/')[-2],self.artwork[c['id']]['sha256'])
+ def test_two_small_images_remain_previews_and_all_seven_have_verified_provenance(self):
+  previews={'folio-zh-cn-CSV9.5C-234','folio-zh-cn-CSV5C-155'}
+  for r in self.records:
+   p=self.artwork[r['cardID']]
+   self.assertEqual(p['artworkBatch'],'zh-chase-2026-10-16');self.assertEqual(p['httpStatus'],200);self.assertTrue(p['identityReview']);self.assertTrue(p['evidence'])
+   self.assertEqual(p['artworkTier'],'thumb' if r['cardID'] in previews else 'high')
+   self.assertIn('/'+p['artworkTier']+'.',p['imageURL'])
+  self.assertIn('images.pikaqian.com',self.artwork['folio-zh-cn-CSV5C-155']['evidence'][0])
  def test_four_partial_sets_and_exact_artist_type_metadata(self):
   for code in ['CS4aC','CSV9.5C','CSV8C','CSV5C']:self.assertEqual(self.sets['folio-zh-cn-'+code]['total'],0)
   self.assertEqual(self.cards['folio-zh-cn-CS4aC-085']['number'],'085');self.assertEqual(self.cards['folio-zh-cn-CS4aC-085']['rarity'],'RRR')

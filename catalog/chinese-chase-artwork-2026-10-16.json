@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchID": "zh-chase-2026-10-16",
+  "reviewedAt": "2026-10-16",
+  "position": "Owner-approved fair-use artwork publication; provenance is retained, not a claim of provider licensing. PriceCharting data evaluation remains separate and unpaid.",
+  "quality": "Five original larger source images, some soft detail; two clean native 300px previews. No Folio upscaling. Charizard photograph rejected in favor of clean preview. High is a dimension tier, not a guarantee of scan quality.",
+  "records": [
+    {
+      "cardID": "folio-zh-cn-CBB1C-0709",
+      "imageURL": "https://art.foliocollect.com/cards/97a1f15a2b968b44d7323edea1c1dec7b9d2906a34939938dd56c4eb45ad0dd6/high.jpg",
+      "sha256": "97a1f15a2b968b44d7323edea1c1dec7b9d2906a34939938dd56c4eb45ad0dd6",
+      "nativeSize": "965x1337",
+      "artworkTier": "high",
+      "evidence": [
+        "https://storage.googleapis.com/images.pricecharting.com/lolpggjyb7lkkt3a/1600.jpg"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Exact full-art #0709 with Friede; prior PikaQian 71db1208 image is #0704 and is excluded. Official Gem Pack 1 specification states all cards are foil. Exact numbered treatment remains distinct from other Pikachu prints."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0614",
+      "imageURL": "https://art.foliocollect.com/cards/f492f8ce93ae805225bf78972f5e71772032dccf4dd9407ac519a1101b12f0b9/high.jpg",
+      "sha256": "f492f8ce93ae805225bf78972f5e71772032dccf4dd9407ac519a1101b12f0b9",
+      "nativeSize": "863x1207",
+      "artworkTier": "high",
+      "evidence": [
+        "https://storage.googleapis.com/images.pricecharting.com/jmv6vpfx6ms6g3v7/1600.jpg"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Printed Gem Pack 2 code and number inspected. Official specification explicitly includes V/VMAX foils and all-foil contents. Does not merge with CS4aC #085, #173 or other regional prints."
+    },
+    {
+      "cardID": "folio-zh-cn-CBB2C-0613",
+      "imageURL": "https://art.foliocollect.com/cards/885620269d9ce2a5f6ebfe6311cab33a121d7508d8405a4d792c689b3a48d4a0/high.jpg",
+      "sha256": "885620269d9ce2a5f6ebfe6311cab33a121d7508d8405a4d792c689b3a48d4a0",
+      "nativeSize": "856x1209",
+      "artworkTier": "high",
+      "evidence": [
+        "https://storage.googleapis.com/images.pricecharting.com/gwyqhsnt2llvboll/1600.jpg"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Gem Pack 2 code, #0613 and printed illustrator inspected. Generic Holo classification follows the official V foil specification; no adjacent numbered pattern is substituted."
+    },
+    {
+      "cardID": "folio-zh-cn-CS4aC-085",
+      "imageURL": "https://art.foliocollect.com/cards/91834318c13bf9aab34f7388b99d294baadbca58dbd16a0c3e7399a71de3a05d/high.jpg",
+      "sha256": "91834318c13bf9aab34f7388b99d294baadbca58dbd16a0c3e7399a71de3a05d",
+      "nativeSize": "968x1343",
+      "artworkTier": "high",
+      "evidence": [
+        "https://storage.googleapis.com/images.pricecharting.com/ccqw6ocdddkbvkuk/1600.jpg"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Printed CS4aC #085/132 RRR and foil face inspected; regular VMAX illustration, not Moonbreon #173. Official product confirms mainland release and date."
+    },
+    {
+      "cardID": "folio-zh-cn-CSV9.5C-234",
+      "imageURL": "https://art.foliocollect.com/cards/863f884a65145e261fc1a12d65c2c34cd1fecad5c8d6ebed2207b400baaed734/thumb.png",
+      "sha256": "863f884a65145e261fc1a12d65c2c34cd1fecad5c8d6ebed2207b400baaed734",
+      "nativeSize": "300x419",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://excaliburtcg.co.uk/cdn/shop/files/575.png?v=1784806380"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Printed CSV9.5C #234/208 SAR, rika credit and simplified script inspected. Official product names the additional Sylveon ex special-art foil; #233 is a separate printing. No Japanese/Traditional Chinese substitution."
+    },
+    {
+      "cardID": "folio-zh-cn-CSV8C-255",
+      "imageURL": "https://art.foliocollect.com/cards/690c94f3cae9cd75723e286de26a93af66b962bbc698dce93ad1d4e1175a98a9/high.jpg",
+      "sha256": "690c94f3cae9cd75723e286de26a93af66b962bbc698dce93ad1d4e1175a98a9",
+      "nativeSize": "870x1211",
+      "artworkTier": "high",
+      "evidence": [
+        "https://storage.googleapis.com/images.pricecharting.com/inbukwejsstzqsxh/1600.jpg"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Printed CSV8C #255/207 SAR, OKACHEKE credit, 2026 copyright and textured foil face inspected. Official product names SAR special-art foils and mainland release date."
+    },
+    {
+      "cardID": "folio-zh-cn-CSV5C-155",
+      "imageURL": "https://art.foliocollect.com/cards/5bfe6e45e469881a039dfa529d1629b79ae8d6df9b55bb509bbe6a10e5aa8820/thumb.webp",
+      "sha256": "5bfe6e45e469881a039dfa529d1629b79ae8d6df9b55bb509bbe6a10e5aa8820",
+      "nativeSize": "300x413",
+      "artworkTier": "thumb",
+      "evidence": [
+        "https://images.pikaqian.com/csv5c/33121bdd-5870-4496-b5f2-50fec50befa2.webp"
+      ],
+      "identityReview": "2026-10-16: visually matched Simplified Chinese name, exact printed set code and number, artwork and illustrator; Printed CSV5C #155/129 SAR, AKIRA EGAWA credit, 2025 copyright, Darkness icon and textured foil face inspected. Not the invalid CSV4C #212 draft seed."
+    }
+  ]
+}

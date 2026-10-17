@@ -1,6 +1,6 @@
 {
-  "sourceStamp": "2026-10-15T20:06:01.000Z",
-  "fetchedAt": "2026-10-16T14:00:40.093Z",
+  "sourceStamp": "2026-10-16T20:05:27.000Z",
+  "fetchedAt": "2026-10-17T10:48:35.392Z",
   "mappingRevision": "4542c90e648591eb5a79fe8e7feb57b601a02fa216b4ec721422921351f23a45",
   "held": 0,
   "reviews": [],
@@ -19,7 +19,7 @@
           "amount": "0.23",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -39,7 +39,7 @@
           "amount": "0.79",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -59,7 +59,7 @@
           "amount": "0.28",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -76,10 +76,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "3.43",
+          "amount": "3.41",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -99,7 +99,7 @@
           "amount": "0.77",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -116,10 +116,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.66",
+          "amount": "0.68",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -136,10 +136,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.77",
+          "amount": "0.75",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -156,10 +156,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "2.55",
+          "amount": "2.53",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -176,10 +176,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "9.62",
+          "amount": "9.78",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -196,10 +196,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "9.2",
+          "amount": "9.14",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -216,10 +216,10 @@
       "status": "available",
       "references": [
         {
-          "amount": "0.94",
+          "amount": "0.96",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -239,7 +239,7 @@
           "amount": "21.96",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -257,7 +257,7 @@
           "amount": "38.75",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -277,7 +277,7 @@
           "amount": "179.99",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
@@ -297,7 +297,7 @@
           "amount": "157.11",
           "currency": "USD",
           "source": "TCGplayer via TCGCSV",
-          "observedAt": "2026-10-15T20:06:01.000Z",
+          "observedAt": "2026-10-16T20:05:27.000Z",
           "meaning": "Raw market reference · condition not specified",
           "status": "current"
         }
